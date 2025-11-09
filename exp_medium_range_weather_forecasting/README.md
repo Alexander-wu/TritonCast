@@ -34,7 +34,7 @@ conda activate triton_v2
 
 2. Download the whole `exp` file from this [link](https://huggingface.co/TritonCast/TritonCast_model/tree/main/exp_medium_range_weather_forecasting).
 
-3. Download the test data, pre-trained checkpoints from this [link](https://huggingface.co/datasets/TritonCast/TritonCast_inference_datasets/tree/main/Medium-range%20Weather%20Forecasting) and put them into a folder.
+3. Download the test data from this [link](https://huggingface.co/datasets/TritonCast/TritonCast_inference_datasets/tree/main/Medium-range%20Weather%20Forecasting) and put them into a folder.
 
 5. Modify the following line in `exp/Triton/20250731-162648/config.yaml` using your own path.
 
