@@ -36,7 +36,7 @@ conda activate triton_v2
 
 2. Download the whole `exp` file from this [link](https://huggingface.co/TritonCast/TritonCast_model/tree/main/exp_global_ocean_simulation_and_forecasting/exp).
 
-3. Download the test data, pre-trained checkpoints from this [link1](https://huggingface.co/datasets/TritonCast/TritonCast_inference_datasets/tree/main/Ocean%20Simulation%20and%20Forecasting) and [link2](https://huggingface.co/datasets/TritonCast/TritonCast_inference_datasets/tree/main/Medium-range%20Weather%20Forecasting), and put them into a folder. (Note: `2020.h5` in link1 and `climate_mean_s_t_ssh.npy` are multi-part compressed files; you need to decompress them first.)
+3. Download the test data from this [link1](https://huggingface.co/datasets/TritonCast/TritonCast_inference_datasets/tree/main/Ocean%20Simulation%20and%20Forecasting) and [link2](https://huggingface.co/datasets/TritonCast/TritonCast_inference_datasets/tree/main/Medium-range%20Weather%20Forecasting), and put them into a folder. (Note: `2020.h5` in link1 and `climate_mean_s_t_ssh.npy` are multi-part compressed files; you need to decompress them first.)
 
 4. Modify the following line in `my_utils.data_loader_multifiles.py` using your own path.
 
