@@ -1,0 +1,98 @@
+# Options: ['Triton_full', 'Triton_flat', 'Triton_no_skip', 'Triton_no_ldc']
+# ablation_config.yaml
+selected_model: 'Triton_no_skip' 
+
+models:
+  # 1.  (Full Model)
+  Triton_full:
+    parameters:
+      model_type: 'full'  
+      input_channel: 1 
+      spatial_hidden_dim: 256
+      output_channels: 1
+      temporal_hidden_dim: 512
+      num_spatial_layers: 4
+      num_temporal_layers: 8
+
+  # 2.  (Flat Model)
+  Triton_flat:
+    parameters:
+      model_type: 'flat'
+      input_channel: 1 
+      spatial_hidden_dim: 256
+      output_channels: 1
+      temporal_hidden_dim: 512
+      num_spatial_layers: 4
+      num_temporal_layers: 8
+      
+  # 3.  (No Skip Connection Model)
+  Triton_no_skip:
+    parameters:
+      model_type: 'no_skip'
+      input_channel: 1 
+      spatial_hidden_dim: 256
+      output_channels: 1
+      temporal_hidden_dim: 512
+      num_spatial_layers: 4
+      num_temporal_layers: 8
+
+  # 4.  (No Self-Attention / Latent Dense Conv Model)
+  Triton_no_ldc:
+    parameters:
+      model_type: 'no_ldc'
+      input_channel: 1 
+      spatial_hidden_dim: 256
+      output_channels: 1
+      temporal_hidden_dim: 512
+      num_spatial_layers: 4
+      num_temporal_layers: 8
+
+trainings:
+  Triton_full: &common_training_params
+    batch_size: 20
+    num_epochs: 500
+    learning_rate: 0.001
+    seed: 42
+    parallel_method: 'DistributedDataParallel'
+  
+  Triton_flat: *common_training_params
+  Triton_no_skip: *common_training_params
+  Triton_no_ldc: *common_training_params
+
+datas:
+  Triton_full: &common_data_params
+    input_length: 1
+    target_length: 1
+    variables_input: [0]
+    variables_output: [0]
+    downsample_factor: 1
+    data_path: '/jizhicfs/easyluwu/ocean_project/NPJ_baselines/Exp_6_NS/dataset/McWilliams2d_fp32_128x128_N1280_Re5000_T100.pt'
+  
+  Triton_flat: *common_data_params
+  Triton_no_skip: *common_data_params
+  Triton_no_ldc: *common_data_params
+
+loggings:
+  Triton_full:
+    backbone: 'Triton_full_exp1'
+    log_dir: '/jizhicfs/easyluwu/Triton4Earth_V2/Scenario_4_turbulent/McWilliams2d_exp/logs'
+    checkpoint_dir: '/jizhicfs/easyluwu/Triton4Earth_V2/Scenario_4_turbulent/McWilliams2d_exp/checkpoints'
+    result_dir: '/jizhicfs/easyluwu/Triton4Earth_V2/Scenario_4_turbulent/McWilliams2d_exp/results'
+
+  Triton_flat:
+    backbone: 'Triton_flat_exp1'
+    log_dir: '/jizhicfs/easyluwu/Triton4Earth_V2/Scenario_4_turbulent/McWilliams2d_exp/logs'
+    checkpoint_dir: '/jizhicfs/easyluwu/Triton4Earth_V2/Scenario_4_turbulent/McWilliams2d_exp/checkpoints'
+    result_dir: '/jizhicfs/easyluwu/Triton4Earth_V2/Scenario_4_turbulent/McWilliams2d_exp/results'
+
+  Triton_no_skip:
+    backbone: 'Triton_no_skip_exp1'
+    log_dir: '/jizhicfs/easyluwu/Triton4Earth_V2/Scenario_4_turbulent/McWilliams2d_exp/logs'
+    checkpoint_dir: '/jizhicfs/easyluwu/Triton4Earth_V2/Scenario_4_turbulent/McWilliams2d_exp/checkpoints'
+    result_dir: '/jizhicfs/easyluwu/Triton4Earth_V2/Scenario_4_turbulent/McWilliams2d_exp/results'
+
+  Triton_no_ldc:
+    backbone: 'Triton_no_ldc_exp1'
+    log_dir: '/jizhicfs/easyluwu/Triton4Earth_V2/Scenario_4_turbulent/McWilliams2d_exp/logs'
+    checkpoint_dir: '/jizhicfs/easyluwu/Triton4Earth_V2/Scenario_4_turbulent/McWilliams2d_exp/checkpoints'
+    result_dir: '/jizhicfs/easyluwu/Triton4Earth_V2/Scenario_4_turbulent/McWilliams2d_exp/results'
