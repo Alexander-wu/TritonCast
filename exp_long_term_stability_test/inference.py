@@ -10,7 +10,7 @@ import argparse
 from tqdm import tqdm  
 from collections import OrderedDict
 
-years = 2018
+years = 2020
 # ==========================================
 # dataset
 # ==========================================
@@ -123,9 +123,9 @@ def main():
         'lon_end': 1440,
         'lat_end': 720,
         'ds_factor': 1,
-        'model_path': f'/jizhicfs/easyluwu/ocean_project/NPJ_baselines/Exp_0_Weather/checkpoints/{backbone}_best_model.pth',
-        'results_path': f'/jizhicfs/easyluwu/ocean_project/NPJ_baselines/Exp_0_Weather/results_{years}',
-        'log_path': f'/jizhicfs/easyluwu/ocean_project/NPJ_baselines/Exp_0_Weather/logs//inference_log_{backbone}.log',
+        'model_path': f'./checkpoints/{backbone}_best_model.pth',
+        'results_path': f'./results_{years}',
+        'log_path': f'./inference_log_{backbone}.log',
         'backbone': backbone,
         'start_step': args_parsed.start_step,  
         'rollout_steps': 364,  
