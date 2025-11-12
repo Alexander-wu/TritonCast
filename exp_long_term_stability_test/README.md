@@ -1,4 +1,31 @@
-# Weather Model Deployment Technical Implementation Document
+# Year-long Weather Forecasting Model Deployment Technical Implementation Document
+
+## Quick Start
+
+
+The code structure is as follows:
+```
+exp_long_term_stability_test/
+├── checkpoints/
+├── dataloader_api/
+├── logs/
+├── model/
+├── model_baselines/
+├── README.md
+├── data_norm.py
+├── inference.py
+├── params.npy
+```
+
+
+Follow these steps to run the code:
+
+1.  **Download Pre-trained Weights**: [Click here](https://huggingface.co/TritonCast/TritonCast_model/tree/main/exp_long_term_stability_test) to download our provided pre-trained weights and place them in the `checkpoints` directory. Alternatively, you can train your own model by following our tutorial.
+2.  **Download the Inference Dataset**: [Click here](https://huggingface.co/datasets/TritonCast/TritonCast_inference_datasets/tree/main/Atmospheric_year_long_forecast) to download the dataset required for inference, create a new folder named `dataset`, and place it in the same root directory as the `checkpoints` folder.
+3.  **Modify Configuration**: Open the `inference.py` file and update the paths to the weights and the dataset to match your local environment.
+
+**Important Recommendation**:
+For optimal results, we highly recommend running the inference on hardware that supports high-precision computing, such as NVIDIA A800, A100, or H20 GPUs. The annual cycle prediction task is extremely sensitive to numerical precision, and even a minor loss in accuracy can significantly degrade performance. Our tests on the aforementioned hardware have successfully reproduced the results reported in the paper.
 
 ## Data Preprocessing Specifications
 
