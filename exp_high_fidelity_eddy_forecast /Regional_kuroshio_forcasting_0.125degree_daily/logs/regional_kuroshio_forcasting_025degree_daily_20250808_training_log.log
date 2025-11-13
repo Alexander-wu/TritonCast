@@ -1,0 +1,1230 @@
+2025-08-07 23:42:54,712 - INFO - Starting data loading process...
+2025-08-07 23:44:55,630 - INFO - Dataset sizes: Train=11303, Validation=346, Test=670
+2025-08-07 23:44:55,661 - INFO - Input shape: torch.Size([10, 2, 128, 128])
+2025-08-07 23:44:55,664 - INFO - Target shape: torch.Size([10, 2, 128, 128])
+2025-08-07 23:44:55,665 - INFO - ============================================================
+2025-08-07 23:44:55,665 - INFO - Performing data sanity check...
+2025-08-07 23:44:56,391 - INFO - 
+--- Input Tensor Statistics ---
+2025-08-07 23:44:56,392 - INFO - Shape: torch.Size([4, 10, 2, 128, 128])
+2025-08-07 23:44:56,395 - INFO - Min: -1.7642
+2025-08-07 23:44:56,396 - INFO - Max: 1.9725
+2025-08-07 23:44:56,400 - INFO - Mean: 0.0039
+2025-08-07 23:44:56,409 - INFO - NaN count: 0
+2025-08-07 23:44:56,409 - INFO - 
+--- Target Tensor Statistics ---
+2025-08-07 23:44:56,410 - INFO - Shape: torch.Size([4, 10, 2, 128, 128])
+2025-08-07 23:44:56,410 - INFO - Min: -1.7154
+2025-08-07 23:44:56,411 - INFO - Max: 2.0103
+2025-08-07 23:44:56,411 - INFO - Mean: 0.0043
+2025-08-07 23:44:56,415 - INFO - NaN count: 0
+2025-08-07 23:44:56,415 - INFO - ============================================================
+2025-08-07 23:45:17,612 - INFO - Initializing model, criterion, and optimizer...
+2025-08-07 23:45:19,050 - INFO - Starting training loop...
+2025-08-07 23:47:16,724 - INFO - Epoch 1/1000 | Train Loss: 0.0609383 | Val Loss: 0.0137891 | LR: 0.001000
+2025-08-07 23:47:17,414 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0137891
+2025-08-07 23:49:12,853 - INFO - Epoch 2/1000 | Train Loss: 0.0073317 | Val Loss: 0.0074633 | LR: 0.001000
+2025-08-07 23:49:13,536 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0074633
+2025-08-07 23:51:08,939 - INFO - Epoch 3/1000 | Train Loss: 0.0043931 | Val Loss: 0.0051060 | LR: 0.001000
+2025-08-07 23:51:09,641 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0051060
+2025-08-07 23:53:04,980 - INFO - Epoch 4/1000 | Train Loss: 0.0033363 | Val Loss: 0.0040317 | LR: 0.001000
+2025-08-07 23:53:05,696 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0040317
+2025-08-07 23:55:01,135 - INFO - Epoch 5/1000 | Train Loss: 0.0027784 | Val Loss: 0.0033854 | LR: 0.001000
+2025-08-07 23:55:01,901 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0033854
+2025-08-07 23:56:57,481 - INFO - Epoch 6/1000 | Train Loss: 0.0024070 | Val Loss: 0.0028801 | LR: 0.001000
+2025-08-07 23:56:58,217 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0028801
+2025-08-07 23:58:53,584 - INFO - Epoch 7/1000 | Train Loss: 0.0020934 | Val Loss: 0.0025368 | LR: 0.001000
+2025-08-07 23:58:54,312 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0025368
+2025-08-08 00:00:49,838 - INFO - Epoch 8/1000 | Train Loss: 0.0018664 | Val Loss: 0.0022473 | LR: 0.000999
+2025-08-08 00:00:50,547 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0022473
+2025-08-08 00:02:45,899 - INFO - Epoch 9/1000 | Train Loss: 0.0017010 | Val Loss: 0.0020917 | LR: 0.000999
+2025-08-08 00:02:46,625 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0020917
+2025-08-08 00:04:42,020 - INFO - Epoch 10/1000 | Train Loss: 0.0015572 | Val Loss: 0.0018113 | LR: 0.000999
+2025-08-08 00:04:42,738 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0018113
+2025-08-08 00:06:38,117 - INFO - Epoch 11/1000 | Train Loss: 0.0013837 | Val Loss: 0.0016377 | LR: 0.000999
+2025-08-08 00:06:38,830 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0016377
+2025-08-08 00:08:34,200 - INFO - Epoch 12/1000 | Train Loss: 0.0013242 | Val Loss: 0.0015562 | LR: 0.000999
+2025-08-08 00:08:34,924 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0015562
+2025-08-08 00:10:30,264 - INFO - Epoch 13/1000 | Train Loss: 0.0012039 | Val Loss: 0.0013851 | LR: 0.000998
+2025-08-08 00:10:30,969 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0013851
+2025-08-08 00:12:26,296 - INFO - Epoch 14/1000 | Train Loss: 0.0011154 | Val Loss: 0.0012876 | LR: 0.000998
+2025-08-08 00:12:27,010 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0012876
+2025-08-08 00:14:22,334 - INFO - Epoch 15/1000 | Train Loss: 0.0013751 | Val Loss: 0.0013317 | LR: 0.000998
+2025-08-08 00:16:17,822 - INFO - Epoch 16/1000 | Train Loss: 0.0010070 | Val Loss: 0.0011202 | LR: 0.000997
+2025-08-08 00:16:18,542 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0011202
+2025-08-08 00:18:13,831 - INFO - Epoch 17/1000 | Train Loss: 0.0009208 | Val Loss: 0.0010558 | LR: 0.000997
+2025-08-08 00:18:14,547 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0010558
+2025-08-08 00:20:09,805 - INFO - Epoch 18/1000 | Train Loss: 0.0008794 | Val Loss: 0.0010088 | LR: 0.000997
+2025-08-08 00:20:10,550 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0010088
+2025-08-08 00:22:05,857 - INFO - Epoch 19/1000 | Train Loss: 0.0008544 | Val Loss: 0.0009358 | LR: 0.000996
+2025-08-08 00:22:06,585 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0009358
+2025-08-08 00:24:01,825 - INFO - Epoch 20/1000 | Train Loss: 0.0008100 | Val Loss: 0.0009354 | LR: 0.000996
+2025-08-08 00:24:02,589 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0009354
+2025-08-08 00:25:57,960 - INFO - Epoch 21/1000 | Train Loss: 0.0007844 | Val Loss: 0.0008737 | LR: 0.000996
+2025-08-08 00:25:58,674 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0008737
+2025-08-08 00:27:53,988 - INFO - Epoch 22/1000 | Train Loss: 0.0007230 | Val Loss: 0.0008198 | LR: 0.000995
+2025-08-08 00:27:54,718 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0008198
+2025-08-08 00:29:50,013 - INFO - Epoch 23/1000 | Train Loss: 0.0007197 | Val Loss: 0.0007563 | LR: 0.000995
+2025-08-08 00:29:50,743 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0007563
+2025-08-08 00:31:46,102 - INFO - Epoch 24/1000 | Train Loss: 0.0006672 | Val Loss: 0.0007233 | LR: 0.000994
+2025-08-08 00:31:46,851 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0007233
+2025-08-08 00:33:42,483 - INFO - Epoch 25/1000 | Train Loss: 0.0006538 | Val Loss: 0.0007567 | LR: 0.000994
+2025-08-08 00:35:37,878 - INFO - Epoch 26/1000 | Train Loss: 0.0006431 | Val Loss: 0.0007129 | LR: 0.000993
+2025-08-08 00:35:38,635 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0007129
+2025-08-08 00:37:33,972 - INFO - Epoch 27/1000 | Train Loss: 0.0006138 | Val Loss: 0.0006312 | LR: 0.000993
+2025-08-08 00:37:34,729 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0006312
+2025-08-08 00:39:30,061 - INFO - Epoch 28/1000 | Train Loss: 0.0005903 | Val Loss: 0.0006620 | LR: 0.000992
+2025-08-08 00:41:25,382 - INFO - Epoch 29/1000 | Train Loss: 0.0005623 | Val Loss: 0.0006797 | LR: 0.000992
+2025-08-08 00:43:20,735 - INFO - Epoch 30/1000 | Train Loss: 0.0005492 | Val Loss: 0.0005850 | LR: 0.000991
+2025-08-08 00:43:21,438 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0005850
+2025-08-08 00:45:16,764 - INFO - Epoch 31/1000 | Train Loss: 0.0005465 | Val Loss: 0.0006509 | LR: 0.000991
+2025-08-08 00:47:12,170 - INFO - Epoch 32/1000 | Train Loss: 0.0005304 | Val Loss: 0.0005721 | LR: 0.000990
+2025-08-08 00:47:12,904 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0005721
+2025-08-08 00:49:08,186 - INFO - Epoch 33/1000 | Train Loss: 0.0005011 | Val Loss: 0.0005913 | LR: 0.000989
+2025-08-08 00:51:03,626 - INFO - Epoch 34/1000 | Train Loss: 0.0005056 | Val Loss: 0.0004916 | LR: 0.000989
+2025-08-08 00:51:04,383 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0004916
+2025-08-08 00:52:59,829 - INFO - Epoch 35/1000 | Train Loss: 0.0004746 | Val Loss: 0.0004883 | LR: 0.000988
+2025-08-08 00:53:00,572 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0004883
+2025-08-08 00:54:55,962 - INFO - Epoch 36/1000 | Train Loss: 0.0004795 | Val Loss: 0.0004799 | LR: 0.000987
+2025-08-08 00:54:56,700 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0004799
+2025-08-08 00:56:52,039 - INFO - Epoch 37/1000 | Train Loss: 0.0004705 | Val Loss: 0.0005700 | LR: 0.000987
+2025-08-08 00:58:47,485 - INFO - Epoch 38/1000 | Train Loss: 0.0004633 | Val Loss: 0.0005076 | LR: 0.000986
+2025-08-08 01:00:43,092 - INFO - Epoch 39/1000 | Train Loss: 0.0004488 | Val Loss: 0.0004413 | LR: 0.000985
+2025-08-08 01:00:43,829 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0004413
+2025-08-08 01:02:39,538 - INFO - Epoch 40/1000 | Train Loss: 0.0004315 | Val Loss: 0.0004304 | LR: 0.000984
+2025-08-08 01:02:40,283 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0004304
+2025-08-08 01:04:35,618 - INFO - Epoch 41/1000 | Train Loss: 0.0004380 | Val Loss: 0.0004573 | LR: 0.000984
+2025-08-08 01:06:31,030 - INFO - Epoch 42/1000 | Train Loss: 0.0004079 | Val Loss: 0.0004164 | LR: 0.000983
+2025-08-08 01:06:31,760 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0004164
+2025-08-08 01:08:27,153 - INFO - Epoch 43/1000 | Train Loss: 0.0004119 | Val Loss: 0.0004376 | LR: 0.000982
+2025-08-08 01:10:22,590 - INFO - Epoch 44/1000 | Train Loss: 0.0003934 | Val Loss: 0.0004173 | LR: 0.000981
+2025-08-08 01:12:17,951 - INFO - Epoch 45/1000 | Train Loss: 0.0004035 | Val Loss: 0.0004078 | LR: 0.000980
+2025-08-08 01:12:18,692 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0004078
+2025-08-08 01:14:14,026 - INFO - Epoch 46/1000 | Train Loss: 0.0003898 | Val Loss: 0.0003714 | LR: 0.000979
+2025-08-08 01:14:14,731 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0003714
+2025-08-08 01:16:10,025 - INFO - Epoch 47/1000 | Train Loss: 0.0004082 | Val Loss: 0.0004105 | LR: 0.000978
+2025-08-08 01:18:05,483 - INFO - Epoch 48/1000 | Train Loss: 0.0003758 | Val Loss: 0.0003629 | LR: 0.000977
+2025-08-08 01:18:06,208 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0003629
+2025-08-08 01:20:01,596 - INFO - Epoch 49/1000 | Train Loss: 0.0003665 | Val Loss: 0.0003718 | LR: 0.000977
+2025-08-08 01:21:57,049 - INFO - Epoch 50/1000 | Train Loss: 0.0003645 | Val Loss: 0.0003807 | LR: 0.000976
+2025-08-08 01:23:52,492 - INFO - Epoch 51/1000 | Train Loss: 0.0003753 | Val Loss: 0.0003588 | LR: 0.000975
+2025-08-08 01:23:53,235 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0003588
+2025-08-08 01:25:48,596 - INFO - Epoch 52/1000 | Train Loss: 0.0003485 | Val Loss: 0.0003430 | LR: 0.000974
+2025-08-08 01:25:49,339 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0003430
+2025-08-08 01:27:44,888 - INFO - Epoch 53/1000 | Train Loss: 0.0003472 | Val Loss: 0.0003382 | LR: 0.000973
+2025-08-08 01:27:45,604 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0003382
+2025-08-08 01:29:40,983 - INFO - Epoch 54/1000 | Train Loss: 0.0003553 | Val Loss: 0.0003532 | LR: 0.000972
+2025-08-08 01:31:36,402 - INFO - Epoch 55/1000 | Train Loss: 0.0003359 | Val Loss: 0.0003308 | LR: 0.000970
+2025-08-08 01:31:37,129 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0003308
+2025-08-08 01:33:32,473 - INFO - Epoch 56/1000 | Train Loss: 0.0003416 | Val Loss: 0.0003507 | LR: 0.000969
+2025-08-08 01:35:27,912 - INFO - Epoch 57/1000 | Train Loss: 0.0003464 | Val Loss: 0.0003389 | LR: 0.000968
+2025-08-08 01:37:23,357 - INFO - Epoch 58/1000 | Train Loss: 0.0003330 | Val Loss: 0.0003221 | LR: 0.000967
+2025-08-08 01:37:24,085 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0003221
+2025-08-08 01:39:19,425 - INFO - Epoch 59/1000 | Train Loss: 0.0003170 | Val Loss: 0.0003254 | LR: 0.000966
+2025-08-08 01:41:14,943 - INFO - Epoch 60/1000 | Train Loss: 0.0003170 | Val Loss: 0.0003171 | LR: 0.000965
+2025-08-08 01:41:15,703 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0003171
+2025-08-08 01:43:11,071 - INFO - Epoch 61/1000 | Train Loss: 0.0003188 | Val Loss: 0.0003014 | LR: 0.000964
+2025-08-08 01:43:11,828 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0003014
+2025-08-08 01:45:07,236 - INFO - Epoch 62/1000 | Train Loss: 0.0003211 | Val Loss: 0.0003090 | LR: 0.000963
+2025-08-08 01:47:02,677 - INFO - Epoch 63/1000 | Train Loss: 0.0003094 | Val Loss: 0.0003067 | LR: 0.000961
+2025-08-08 01:48:58,116 - INFO - Epoch 64/1000 | Train Loss: 0.0003319 | Val Loss: 0.0003120 | LR: 0.000960
+2025-08-08 01:50:53,915 - INFO - Epoch 65/1000 | Train Loss: 0.0003035 | Val Loss: 0.0002824 | LR: 0.000959
+2025-08-08 01:50:54,674 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0002824
+2025-08-08 01:52:50,061 - INFO - Epoch 66/1000 | Train Loss: 0.0002994 | Val Loss: 0.0002886 | LR: 0.000958
+2025-08-08 01:54:45,544 - INFO - Epoch 67/1000 | Train Loss: 0.0003052 | Val Loss: 0.0002754 | LR: 0.000956
+2025-08-08 01:54:46,262 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0002754
+2025-08-08 01:56:41,621 - INFO - Epoch 68/1000 | Train Loss: 0.0002931 | Val Loss: 0.0002750 | LR: 0.000955
+2025-08-08 01:56:42,337 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0002750
+2025-08-08 01:58:37,720 - INFO - Epoch 69/1000 | Train Loss: 0.0003085 | Val Loss: 0.0002901 | LR: 0.000954
+2025-08-08 02:00:33,199 - INFO - Epoch 70/1000 | Train Loss: 0.0002963 | Val Loss: 0.0002878 | LR: 0.000952
+2025-08-08 02:02:28,650 - INFO - Epoch 71/1000 | Train Loss: 0.0002814 | Val Loss: 0.0002800 | LR: 0.000951
+2025-08-08 02:04:24,087 - INFO - Epoch 72/1000 | Train Loss: 0.0002942 | Val Loss: 0.0002681 | LR: 0.000950
+2025-08-08 02:04:24,826 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0002681
+2025-08-08 02:06:20,239 - INFO - Epoch 73/1000 | Train Loss: 0.0002894 | Val Loss: 0.0002712 | LR: 0.000948
+2025-08-08 02:08:15,696 - INFO - Epoch 74/1000 | Train Loss: 0.0002873 | Val Loss: 0.0002688 | LR: 0.000947
+2025-08-08 02:10:11,107 - INFO - Epoch 75/1000 | Train Loss: 0.0002801 | Val Loss: 0.0002680 | LR: 0.000946
+2025-08-08 02:10:11,838 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0002680
+2025-08-08 02:12:07,228 - INFO - Epoch 76/1000 | Train Loss: 0.0002786 | Val Loss: 0.0002534 | LR: 0.000944
+2025-08-08 02:12:07,976 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0002534
+2025-08-08 02:14:03,398 - INFO - Epoch 77/1000 | Train Loss: 0.0002829 | Val Loss: 0.0002712 | LR: 0.000943
+2025-08-08 02:15:58,811 - INFO - Epoch 78/1000 | Train Loss: 0.0002756 | Val Loss: 0.0002755 | LR: 0.000941
+2025-08-08 02:17:54,222 - INFO - Epoch 79/1000 | Train Loss: 0.0002695 | Val Loss: 0.0002530 | LR: 0.000940
+2025-08-08 02:17:54,950 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0002530
+2025-08-08 02:19:50,344 - INFO - Epoch 80/1000 | Train Loss: 0.0002724 | Val Loss: 0.0002475 | LR: 0.000938
+2025-08-08 02:19:51,053 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0002475
+2025-08-08 02:21:46,429 - INFO - Epoch 81/1000 | Train Loss: 0.0002740 | Val Loss: 0.0002406 | LR: 0.000937
+2025-08-08 02:21:47,172 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0002406
+2025-08-08 02:23:42,527 - INFO - Epoch 82/1000 | Train Loss: 0.0002741 | Val Loss: 0.0002476 | LR: 0.000935
+2025-08-08 02:25:37,966 - INFO - Epoch 83/1000 | Train Loss: 0.0002670 | Val Loss: 0.0002392 | LR: 0.000934
+2025-08-08 02:25:38,707 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0002392
+2025-08-08 02:27:34,321 - INFO - Epoch 84/1000 | Train Loss: 0.0002621 | Val Loss: 0.0002495 | LR: 0.000932
+2025-08-08 02:29:29,776 - INFO - Epoch 85/1000 | Train Loss: 0.0002665 | Val Loss: 0.0002405 | LR: 0.000930
+2025-08-08 02:31:25,242 - INFO - Epoch 86/1000 | Train Loss: 0.0002643 | Val Loss: 0.0002490 | LR: 0.000929
+2025-08-08 02:33:20,677 - INFO - Epoch 87/1000 | Train Loss: 0.0002673 | Val Loss: 0.0002527 | LR: 0.000927
+2025-08-08 02:35:16,302 - INFO - Epoch 88/1000 | Train Loss: 0.0002528 | Val Loss: 0.0002351 | LR: 0.000926
+2025-08-08 02:35:17,046 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0002351
+2025-08-08 02:37:12,448 - INFO - Epoch 89/1000 | Train Loss: 0.0002690 | Val Loss: 0.0002443 | LR: 0.000924
+2025-08-08 02:39:07,899 - INFO - Epoch 90/1000 | Train Loss: 0.0002527 | Val Loss: 0.0002319 | LR: 0.000922
+2025-08-08 02:39:08,631 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0002319
+2025-08-08 02:41:04,006 - INFO - Epoch 91/1000 | Train Loss: 0.0002561 | Val Loss: 0.0002365 | LR: 0.000921
+2025-08-08 02:42:59,523 - INFO - Epoch 92/1000 | Train Loss: 0.0002470 | Val Loss: 0.0002236 | LR: 0.000919
+2025-08-08 02:43:00,268 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0002236
+2025-08-08 02:44:55,608 - INFO - Epoch 93/1000 | Train Loss: 0.0002444 | Val Loss: 0.0002237 | LR: 0.000917
+2025-08-08 02:46:51,047 - INFO - Epoch 94/1000 | Train Loss: 0.0002465 | Val Loss: 0.0002283 | LR: 0.000915
+2025-08-08 02:48:46,530 - INFO - Epoch 95/1000 | Train Loss: 0.0002497 | Val Loss: 0.0002271 | LR: 0.000914
+2025-08-08 02:50:42,043 - INFO - Epoch 96/1000 | Train Loss: 0.0002494 | Val Loss: 0.0002200 | LR: 0.000912
+2025-08-08 02:50:42,782 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0002200
+2025-08-08 02:52:38,232 - INFO - Epoch 97/1000 | Train Loss: 0.0002467 | Val Loss: 0.0002203 | LR: 0.000910
+2025-08-08 02:54:33,673 - INFO - Epoch 98/1000 | Train Loss: 0.0002398 | Val Loss: 0.0002179 | LR: 0.000908
+2025-08-08 02:54:34,387 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0002179
+2025-08-08 02:56:29,967 - INFO - Epoch 99/1000 | Train Loss: 0.0002340 | Val Loss: 0.0002188 | LR: 0.000906
+2025-08-08 02:58:25,459 - INFO - Epoch 100/1000 | Train Loss: 0.0002365 | Val Loss: 0.0002080 | LR: 0.000905
+2025-08-08 02:58:26,183 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0002080
+2025-08-08 02:58:26,811 - INFO - Saved periodic checkpoint at epoch 100 to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_epoch_100.pth
+2025-08-08 03:00:22,151 - INFO - Epoch 101/1000 | Train Loss: 0.0002364 | Val Loss: 0.0002223 | LR: 0.000903
+2025-08-08 03:02:17,625 - INFO - Epoch 102/1000 | Train Loss: 0.0002364 | Val Loss: 0.0002212 | LR: 0.000901
+2025-08-08 03:04:13,094 - INFO - Epoch 103/1000 | Train Loss: 0.0002361 | Val Loss: 0.0002129 | LR: 0.000899
+2025-08-08 03:06:08,604 - INFO - Epoch 104/1000 | Train Loss: 0.0002456 | Val Loss: 0.0002173 | LR: 0.000897
+2025-08-08 03:08:04,110 - INFO - Epoch 105/1000 | Train Loss: 0.0002348 | Val Loss: 0.0002112 | LR: 0.000895
+2025-08-08 03:09:59,603 - INFO - Epoch 106/1000 | Train Loss: 0.0002257 | Val Loss: 0.0002061 | LR: 0.000893
+2025-08-08 03:10:00,352 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0002061
+2025-08-08 03:11:55,914 - INFO - Epoch 107/1000 | Train Loss: 0.0002320 | Val Loss: 0.0002064 | LR: 0.000891
+2025-08-08 03:13:51,418 - INFO - Epoch 108/1000 | Train Loss: 0.0002296 | Val Loss: 0.0002335 | LR: 0.000889
+2025-08-08 03:15:46,918 - INFO - Epoch 109/1000 | Train Loss: 0.0002302 | Val Loss: 0.0002020 | LR: 0.000887
+2025-08-08 03:15:47,674 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0002020
+2025-08-08 03:17:43,042 - INFO - Epoch 110/1000 | Train Loss: 0.0002328 | Val Loss: 0.0002034 | LR: 0.000885
+2025-08-08 03:19:38,701 - INFO - Epoch 111/1000 | Train Loss: 0.0002329 | Val Loss: 0.0002030 | LR: 0.000883
+2025-08-08 03:21:34,197 - INFO - Epoch 112/1000 | Train Loss: 0.0002241 | Val Loss: 0.0002024 | LR: 0.000881
+2025-08-08 03:23:29,625 - INFO - Epoch 113/1000 | Train Loss: 0.0002334 | Val Loss: 0.0002002 | LR: 0.000879
+2025-08-08 03:23:30,363 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0002002
+2025-08-08 03:25:26,054 - INFO - Epoch 114/1000 | Train Loss: 0.0002260 | Val Loss: 0.0001984 | LR: 0.000877
+2025-08-08 03:25:26,795 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001984
+2025-08-08 03:27:22,213 - INFO - Epoch 115/1000 | Train Loss: 0.0002224 | Val Loss: 0.0001953 | LR: 0.000875
+2025-08-08 03:27:22,970 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001953
+2025-08-08 03:29:18,363 - INFO - Epoch 116/1000 | Train Loss: 0.0002227 | Val Loss: 0.0002112 | LR: 0.000873
+2025-08-08 03:31:13,804 - INFO - Epoch 117/1000 | Train Loss: 0.0002279 | Val Loss: 0.0002047 | LR: 0.000871
+2025-08-08 03:33:09,383 - INFO - Epoch 118/1000 | Train Loss: 0.0002189 | Val Loss: 0.0002023 | LR: 0.000869
+2025-08-08 03:35:04,850 - INFO - Epoch 119/1000 | Train Loss: 0.0002237 | Val Loss: 0.0001901 | LR: 0.000867
+2025-08-08 03:35:05,595 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001901
+2025-08-08 03:37:00,984 - INFO - Epoch 120/1000 | Train Loss: 0.0002221 | Val Loss: 0.0002010 | LR: 0.000865
+2025-08-08 03:38:56,405 - INFO - Epoch 121/1000 | Train Loss: 0.0002139 | Val Loss: 0.0001914 | LR: 0.000862
+2025-08-08 03:40:51,854 - INFO - Epoch 122/1000 | Train Loss: 0.0002185 | Val Loss: 0.0002065 | LR: 0.000860
+2025-08-08 03:42:47,333 - INFO - Epoch 123/1000 | Train Loss: 0.0002187 | Val Loss: 0.0001875 | LR: 0.000858
+2025-08-08 03:42:48,074 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001875
+2025-08-08 03:44:43,784 - INFO - Epoch 124/1000 | Train Loss: 0.0002215 | Val Loss: 0.0001965 | LR: 0.000856
+2025-08-08 03:46:39,256 - INFO - Epoch 125/1000 | Train Loss: 0.0002287 | Val Loss: 0.0001882 | LR: 0.000854
+2025-08-08 03:48:34,695 - INFO - Epoch 126/1000 | Train Loss: 0.0002169 | Val Loss: 0.0001903 | LR: 0.000851
+2025-08-08 03:50:30,116 - INFO - Epoch 127/1000 | Train Loss: 0.0002164 | Val Loss: 0.0001841 | LR: 0.000849
+2025-08-08 03:50:30,860 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001841
+2025-08-08 03:52:26,203 - INFO - Epoch 128/1000 | Train Loss: 0.0002071 | Val Loss: 0.0001852 | LR: 0.000847
+2025-08-08 03:54:21,658 - INFO - Epoch 129/1000 | Train Loss: 0.0002090 | Val Loss: 0.0001803 | LR: 0.000845
+2025-08-08 03:54:22,368 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001803
+2025-08-08 03:56:17,767 - INFO - Epoch 130/1000 | Train Loss: 0.0002158 | Val Loss: 0.0001874 | LR: 0.000842
+2025-08-08 03:58:13,353 - INFO - Epoch 131/1000 | Train Loss: 0.0002165 | Val Loss: 0.0001888 | LR: 0.000840
+2025-08-08 04:00:08,773 - INFO - Epoch 132/1000 | Train Loss: 0.0002056 | Val Loss: 0.0001811 | LR: 0.000838
+2025-08-08 04:02:04,452 - INFO - Epoch 133/1000 | Train Loss: 0.0002113 | Val Loss: 0.0001817 | LR: 0.000836
+2025-08-08 04:03:59,943 - INFO - Epoch 134/1000 | Train Loss: 0.0002117 | Val Loss: 0.0001773 | LR: 0.000833
+2025-08-08 04:04:00,674 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001773
+2025-08-08 04:05:56,049 - INFO - Epoch 135/1000 | Train Loss: 0.0002064 | Val Loss: 0.0001737 | LR: 0.000831
+2025-08-08 04:05:56,800 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001737
+2025-08-08 04:07:52,382 - INFO - Epoch 136/1000 | Train Loss: 0.0002049 | Val Loss: 0.0001747 | LR: 0.000828
+2025-08-08 04:09:47,811 - INFO - Epoch 137/1000 | Train Loss: 0.0002012 | Val Loss: 0.0001775 | LR: 0.000826
+2025-08-08 04:11:43,235 - INFO - Epoch 138/1000 | Train Loss: 0.0002041 | Val Loss: 0.0001826 | LR: 0.000824
+2025-08-08 04:13:38,772 - INFO - Epoch 139/1000 | Train Loss: 0.0002023 | Val Loss: 0.0001774 | LR: 0.000821
+2025-08-08 04:15:34,244 - INFO - Epoch 140/1000 | Train Loss: 0.0002029 | Val Loss: 0.0001764 | LR: 0.000819
+2025-08-08 04:17:29,739 - INFO - Epoch 141/1000 | Train Loss: 0.0002261 | Val Loss: 0.0001724 | LR: 0.000816
+2025-08-08 04:17:30,483 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001724
+2025-08-08 04:19:25,886 - INFO - Epoch 142/1000 | Train Loss: 0.0002053 | Val Loss: 0.0001759 | LR: 0.000814
+2025-08-08 04:21:21,322 - INFO - Epoch 143/1000 | Train Loss: 0.0001986 | Val Loss: 0.0001698 | LR: 0.000812
+2025-08-08 04:21:22,074 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001698
+2025-08-08 04:23:17,462 - INFO - Epoch 144/1000 | Train Loss: 0.0002034 | Val Loss: 0.0001692 | LR: 0.000809
+2025-08-08 04:23:18,214 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001692
+2025-08-08 04:25:13,548 - INFO - Epoch 145/1000 | Train Loss: 0.0002019 | Val Loss: 0.0001696 | LR: 0.000807
+2025-08-08 04:27:08,988 - INFO - Epoch 146/1000 | Train Loss: 0.0001960 | Val Loss: 0.0001719 | LR: 0.000804
+2025-08-08 04:29:04,427 - INFO - Epoch 147/1000 | Train Loss: 0.0002025 | Val Loss: 0.0001676 | LR: 0.000802
+2025-08-08 04:29:05,179 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001676
+2025-08-08 04:31:00,614 - INFO - Epoch 148/1000 | Train Loss: 0.0001951 | Val Loss: 0.0001678 | LR: 0.000799
+2025-08-08 04:32:56,059 - INFO - Epoch 149/1000 | Train Loss: 0.0002007 | Val Loss: 0.0001644 | LR: 0.000797
+2025-08-08 04:32:56,780 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001644
+2025-08-08 04:34:52,369 - INFO - Epoch 150/1000 | Train Loss: 0.0001942 | Val Loss: 0.0001675 | LR: 0.000794
+2025-08-08 04:36:47,820 - INFO - Epoch 151/1000 | Train Loss: 0.0002032 | Val Loss: 0.0001656 | LR: 0.000792
+2025-08-08 04:38:43,261 - INFO - Epoch 152/1000 | Train Loss: 0.0001944 | Val Loss: 0.0001713 | LR: 0.000789
+2025-08-08 04:40:38,702 - INFO - Epoch 153/1000 | Train Loss: 0.0001958 | Val Loss: 0.0001641 | LR: 0.000786
+2025-08-08 04:40:39,460 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001641
+2025-08-08 04:42:35,139 - INFO - Epoch 154/1000 | Train Loss: 0.0001947 | Val Loss: 0.0001608 | LR: 0.000784
+2025-08-08 04:42:35,878 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001608
+2025-08-08 04:44:31,466 - INFO - Epoch 155/1000 | Train Loss: 0.0001927 | Val Loss: 0.0001681 | LR: 0.000781
+2025-08-08 04:46:26,850 - INFO - Epoch 156/1000 | Train Loss: 0.0001965 | Val Loss: 0.0001702 | LR: 0.000779
+2025-08-08 04:48:22,325 - INFO - Epoch 157/1000 | Train Loss: 0.0001930 | Val Loss: 0.0001620 | LR: 0.000776
+2025-08-08 04:50:17,772 - INFO - Epoch 158/1000 | Train Loss: 0.0001944 | Val Loss: 0.0001620 | LR: 0.000773
+2025-08-08 04:52:13,232 - INFO - Epoch 159/1000 | Train Loss: 0.0001920 | Val Loss: 0.0001684 | LR: 0.000771
+2025-08-08 04:54:08,603 - INFO - Epoch 160/1000 | Train Loss: 0.0001926 | Val Loss: 0.0001615 | LR: 0.000768
+2025-08-08 04:56:04,019 - INFO - Epoch 161/1000 | Train Loss: 0.0001919 | Val Loss: 0.0001591 | LR: 0.000765
+2025-08-08 04:56:04,757 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001591
+2025-08-08 04:58:00,199 - INFO - Epoch 162/1000 | Train Loss: 0.0001904 | Val Loss: 0.0001566 | LR: 0.000763
+2025-08-08 04:58:00,930 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001566
+2025-08-08 04:59:56,350 - INFO - Epoch 163/1000 | Train Loss: 0.0001952 | Val Loss: 0.0001595 | LR: 0.000760
+2025-08-08 05:01:51,786 - INFO - Epoch 164/1000 | Train Loss: 0.0001926 | Val Loss: 0.0001674 | LR: 0.000757
+2025-08-08 05:03:47,229 - INFO - Epoch 165/1000 | Train Loss: 0.0001873 | Val Loss: 0.0001633 | LR: 0.000755
+2025-08-08 05:05:42,672 - INFO - Epoch 166/1000 | Train Loss: 0.0001860 | Val Loss: 0.0001563 | LR: 0.000752
+2025-08-08 05:05:43,405 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001563
+2025-08-08 05:07:38,921 - INFO - Epoch 167/1000 | Train Loss: 0.0001883 | Val Loss: 0.0001601 | LR: 0.000749
+2025-08-08 05:09:34,406 - INFO - Epoch 168/1000 | Train Loss: 0.0001859 | Val Loss: 0.0001554 | LR: 0.000747
+2025-08-08 05:09:35,154 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001554
+2025-08-08 05:11:30,554 - INFO - Epoch 169/1000 | Train Loss: 0.0001879 | Val Loss: 0.0001575 | LR: 0.000744
+2025-08-08 05:13:25,981 - INFO - Epoch 170/1000 | Train Loss: 0.0001907 | Val Loss: 0.0001565 | LR: 0.000741
+2025-08-08 05:15:21,491 - INFO - Epoch 171/1000 | Train Loss: 0.0001862 | Val Loss: 0.0001568 | LR: 0.000738
+2025-08-08 05:17:16,931 - INFO - Epoch 172/1000 | Train Loss: 0.0001907 | Val Loss: 0.0001505 | LR: 0.000736
+2025-08-08 05:17:17,678 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001505
+2025-08-08 05:19:13,062 - INFO - Epoch 173/1000 | Train Loss: 0.0001859 | Val Loss: 0.0001551 | LR: 0.000733
+2025-08-08 05:21:08,485 - INFO - Epoch 174/1000 | Train Loss: 0.0001874 | Val Loss: 0.0001551 | LR: 0.000730
+2025-08-08 05:23:04,049 - INFO - Epoch 175/1000 | Train Loss: 0.0001859 | Val Loss: 0.0001630 | LR: 0.000727
+2025-08-08 05:24:59,439 - INFO - Epoch 176/1000 | Train Loss: 0.0001809 | Val Loss: 0.0001515 | LR: 0.000724
+2025-08-08 05:26:54,886 - INFO - Epoch 177/1000 | Train Loss: 0.0001836 | Val Loss: 0.0001475 | LR: 0.000722
+2025-08-08 05:26:55,634 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001475
+2025-08-08 05:28:51,005 - INFO - Epoch 178/1000 | Train Loss: 0.0001805 | Val Loss: 0.0001502 | LR: 0.000719
+2025-08-08 05:30:46,432 - INFO - Epoch 179/1000 | Train Loss: 0.0001817 | Val Loss: 0.0001491 | LR: 0.000716
+2025-08-08 05:32:41,915 - INFO - Epoch 180/1000 | Train Loss: 0.0001772 | Val Loss: 0.0001524 | LR: 0.000713
+2025-08-08 05:34:37,314 - INFO - Epoch 181/1000 | Train Loss: 0.0001768 | Val Loss: 0.0001514 | LR: 0.000710
+2025-08-08 05:36:32,755 - INFO - Epoch 182/1000 | Train Loss: 0.0001764 | Val Loss: 0.0001491 | LR: 0.000707
+2025-08-08 05:38:28,196 - INFO - Epoch 183/1000 | Train Loss: 0.0001863 | Val Loss: 0.0001489 | LR: 0.000705
+2025-08-08 05:40:23,652 - INFO - Epoch 184/1000 | Train Loss: 0.0001806 | Val Loss: 0.0001498 | LR: 0.000702
+2025-08-08 05:42:19,059 - INFO - Epoch 185/1000 | Train Loss: 0.0001806 | Val Loss: 0.0001545 | LR: 0.000699
+2025-08-08 05:44:14,522 - INFO - Epoch 186/1000 | Train Loss: 0.0001864 | Val Loss: 0.0001465 | LR: 0.000696
+2025-08-08 05:44:15,284 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001465
+2025-08-08 05:46:10,667 - INFO - Epoch 187/1000 | Train Loss: 0.0001819 | Val Loss: 0.0001486 | LR: 0.000693
+2025-08-08 05:48:06,206 - INFO - Epoch 188/1000 | Train Loss: 0.0001777 | Val Loss: 0.0001465 | LR: 0.000690
+2025-08-08 05:48:07,009 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001465
+2025-08-08 05:50:02,401 - INFO - Epoch 189/1000 | Train Loss: 0.0001756 | Val Loss: 0.0001432 | LR: 0.000687
+2025-08-08 05:50:03,188 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001432
+2025-08-08 05:51:58,596 - INFO - Epoch 190/1000 | Train Loss: 0.0001736 | Val Loss: 0.0001467 | LR: 0.000684
+2025-08-08 05:53:53,961 - INFO - Epoch 191/1000 | Train Loss: 0.0001870 | Val Loss: 0.0001474 | LR: 0.000681
+2025-08-08 05:55:49,394 - INFO - Epoch 192/1000 | Train Loss: 0.0001737 | Val Loss: 0.0001465 | LR: 0.000679
+2025-08-08 05:57:44,803 - INFO - Epoch 193/1000 | Train Loss: 0.0001710 | Val Loss: 0.0001430 | LR: 0.000676
+2025-08-08 05:57:45,553 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001430
+2025-08-08 05:59:40,975 - INFO - Epoch 194/1000 | Train Loss: 0.0001734 | Val Loss: 0.0001421 | LR: 0.000673
+2025-08-08 05:59:41,703 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001421
+2025-08-08 06:01:37,140 - INFO - Epoch 195/1000 | Train Loss: 0.0001738 | Val Loss: 0.0001436 | LR: 0.000670
+2025-08-08 06:03:32,579 - INFO - Epoch 196/1000 | Train Loss: 0.0001664 | Val Loss: 0.0001396 | LR: 0.000667
+2025-08-08 06:03:33,295 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001396
+2025-08-08 06:05:28,649 - INFO - Epoch 197/1000 | Train Loss: 0.0001751 | Val Loss: 0.0001419 | LR: 0.000664
+2025-08-08 06:07:24,108 - INFO - Epoch 198/1000 | Train Loss: 0.0001788 | Val Loss: 0.0001447 | LR: 0.000661
+2025-08-08 06:09:19,660 - INFO - Epoch 199/1000 | Train Loss: 0.0001734 | Val Loss: 0.0001424 | LR: 0.000658
+2025-08-08 06:11:15,159 - INFO - Epoch 200/1000 | Train Loss: 0.0001694 | Val Loss: 0.0001434 | LR: 0.000655
+2025-08-08 06:11:15,871 - INFO - Saved periodic checkpoint at epoch 200 to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_epoch_200.pth
+2025-08-08 06:13:11,372 - INFO - Epoch 201/1000 | Train Loss: 0.0001720 | Val Loss: 0.0001406 | LR: 0.000652
+2025-08-08 06:15:06,790 - INFO - Epoch 202/1000 | Train Loss: 0.0001725 | Val Loss: 0.0001429 | LR: 0.000649
+2025-08-08 06:17:02,259 - INFO - Epoch 203/1000 | Train Loss: 0.0001713 | Val Loss: 0.0001395 | LR: 0.000646
+2025-08-08 06:17:03,020 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001395
+2025-08-08 06:18:58,439 - INFO - Epoch 204/1000 | Train Loss: 0.0001681 | Val Loss: 0.0001366 | LR: 0.000643
+2025-08-08 06:18:59,213 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001366
+2025-08-08 06:20:54,630 - INFO - Epoch 205/1000 | Train Loss: 0.0001775 | Val Loss: 0.0001393 | LR: 0.000640
+2025-08-08 06:22:50,109 - INFO - Epoch 206/1000 | Train Loss: 0.0001743 | Val Loss: 0.0001384 | LR: 0.000637
+2025-08-08 06:24:45,601 - INFO - Epoch 207/1000 | Train Loss: 0.0001690 | Val Loss: 0.0001439 | LR: 0.000634
+2025-08-08 06:26:41,004 - INFO - Epoch 208/1000 | Train Loss: 0.0001729 | Val Loss: 0.0001404 | LR: 0.000631
+2025-08-08 06:28:36,477 - INFO - Epoch 209/1000 | Train Loss: 0.0001729 | Val Loss: 0.0001417 | LR: 0.000628
+2025-08-08 06:30:31,921 - INFO - Epoch 210/1000 | Train Loss: 0.0001682 | Val Loss: 0.0001356 | LR: 0.000625
+2025-08-08 06:30:32,659 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001356
+2025-08-08 06:32:28,056 - INFO - Epoch 211/1000 | Train Loss: 0.0001699 | Val Loss: 0.0001375 | LR: 0.000622
+2025-08-08 06:34:23,741 - INFO - Epoch 212/1000 | Train Loss: 0.0001661 | Val Loss: 0.0001381 | LR: 0.000619
+2025-08-08 06:36:19,184 - INFO - Epoch 213/1000 | Train Loss: 0.0001688 | Val Loss: 0.0001352 | LR: 0.000616
+2025-08-08 06:36:19,936 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001352
+2025-08-08 06:38:15,357 - INFO - Epoch 214/1000 | Train Loss: 0.0001625 | Val Loss: 0.0001343 | LR: 0.000613
+2025-08-08 06:38:16,091 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001343
+2025-08-08 06:40:11,554 - INFO - Epoch 215/1000 | Train Loss: 0.0001683 | Val Loss: 0.0001397 | LR: 0.000609
+2025-08-08 06:42:07,024 - INFO - Epoch 216/1000 | Train Loss: 0.0001625 | Val Loss: 0.0001387 | LR: 0.000606
+2025-08-08 06:44:02,500 - INFO - Epoch 217/1000 | Train Loss: 0.0001682 | Val Loss: 0.0001327 | LR: 0.000603
+2025-08-08 06:44:03,255 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001327
+2025-08-08 06:45:58,681 - INFO - Epoch 218/1000 | Train Loss: 0.0001681 | Val Loss: 0.0001340 | LR: 0.000600
+2025-08-08 06:47:54,132 - INFO - Epoch 219/1000 | Train Loss: 0.0001666 | Val Loss: 0.0001350 | LR: 0.000597
+2025-08-08 06:49:49,619 - INFO - Epoch 220/1000 | Train Loss: 0.0001694 | Val Loss: 0.0001332 | LR: 0.000594
+2025-08-08 06:51:45,366 - INFO - Epoch 221/1000 | Train Loss: 0.0001654 | Val Loss: 0.0001361 | LR: 0.000591
+2025-08-08 06:53:40,928 - INFO - Epoch 222/1000 | Train Loss: 0.0001710 | Val Loss: 0.0001364 | LR: 0.000588
+2025-08-08 06:55:36,388 - INFO - Epoch 223/1000 | Train Loss: 0.0001676 | Val Loss: 0.0001360 | LR: 0.000585
+2025-08-08 06:57:31,946 - INFO - Epoch 224/1000 | Train Loss: 0.0001606 | Val Loss: 0.0001326 | LR: 0.000582
+2025-08-08 06:57:32,682 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001326
+2025-08-08 06:59:28,146 - INFO - Epoch 225/1000 | Train Loss: 0.0001638 | Val Loss: 0.0001302 | LR: 0.000579
+2025-08-08 06:59:28,892 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001302
+2025-08-08 07:01:24,293 - INFO - Epoch 226/1000 | Train Loss: 0.0001669 | Val Loss: 0.0001374 | LR: 0.000576
+2025-08-08 07:03:19,884 - INFO - Epoch 227/1000 | Train Loss: 0.0001640 | Val Loss: 0.0001286 | LR: 0.000572
+2025-08-08 07:03:20,605 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001286
+2025-08-08 07:05:15,981 - INFO - Epoch 228/1000 | Train Loss: 0.0001627 | Val Loss: 0.0001327 | LR: 0.000569
+2025-08-08 07:07:11,443 - INFO - Epoch 229/1000 | Train Loss: 0.0001623 | Val Loss: 0.0001328 | LR: 0.000566
+2025-08-08 07:09:06,915 - INFO - Epoch 230/1000 | Train Loss: 0.0001597 | Val Loss: 0.0001279 | LR: 0.000563
+2025-08-08 07:09:07,658 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001279
+2025-08-08 07:11:03,080 - INFO - Epoch 231/1000 | Train Loss: 0.0001548 | Val Loss: 0.0001285 | LR: 0.000560
+2025-08-08 07:12:58,536 - INFO - Epoch 232/1000 | Train Loss: 0.0001644 | Val Loss: 0.0001314 | LR: 0.000557
+2025-08-08 07:14:54,061 - INFO - Epoch 233/1000 | Train Loss: 0.0001615 | Val Loss: 0.0001308 | LR: 0.000554
+2025-08-08 07:16:49,506 - INFO - Epoch 234/1000 | Train Loss: 0.0001646 | Val Loss: 0.0001289 | LR: 0.000551
+2025-08-08 07:18:44,978 - INFO - Epoch 235/1000 | Train Loss: 0.0001642 | Val Loss: 0.0001289 | LR: 0.000548
+2025-08-08 07:20:40,419 - INFO - Epoch 236/1000 | Train Loss: 0.0001618 | Val Loss: 0.0001288 | LR: 0.000544
+2025-08-08 07:22:35,857 - INFO - Epoch 237/1000 | Train Loss: 0.0001544 | Val Loss: 0.0001276 | LR: 0.000541
+2025-08-08 07:22:36,615 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001276
+2025-08-08 07:24:32,029 - INFO - Epoch 238/1000 | Train Loss: 0.0001640 | Val Loss: 0.0001293 | LR: 0.000538
+2025-08-08 07:26:27,569 - INFO - Epoch 239/1000 | Train Loss: 0.0001534 | Val Loss: 0.0001252 | LR: 0.000535
+2025-08-08 07:26:28,290 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001252
+2025-08-08 07:28:23,765 - INFO - Epoch 240/1000 | Train Loss: 0.0001616 | Val Loss: 0.0001298 | LR: 0.000532
+2025-08-08 07:30:19,271 - INFO - Epoch 241/1000 | Train Loss: 0.0001600 | Val Loss: 0.0001273 | LR: 0.000529
+2025-08-08 07:32:14,747 - INFO - Epoch 242/1000 | Train Loss: 0.0001587 | Val Loss: 0.0001336 | LR: 0.000526
+2025-08-08 07:34:10,285 - INFO - Epoch 243/1000 | Train Loss: 0.0001587 | Val Loss: 0.0001259 | LR: 0.000522
+2025-08-08 07:36:06,005 - INFO - Epoch 244/1000 | Train Loss: 0.0001595 | Val Loss: 0.0001257 | LR: 0.000519
+2025-08-08 07:38:01,472 - INFO - Epoch 245/1000 | Train Loss: 0.0001567 | Val Loss: 0.0001237 | LR: 0.000516
+2025-08-08 07:38:02,222 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001237
+2025-08-08 07:39:57,721 - INFO - Epoch 246/1000 | Train Loss: 0.0001504 | Val Loss: 0.0001223 | LR: 0.000513
+2025-08-08 07:39:58,484 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001223
+2025-08-08 07:41:53,945 - INFO - Epoch 247/1000 | Train Loss: 0.0001560 | Val Loss: 0.0001252 | LR: 0.000510
+2025-08-08 07:43:49,373 - INFO - Epoch 248/1000 | Train Loss: 0.0001558 | Val Loss: 0.0001261 | LR: 0.000507
+2025-08-08 07:45:44,805 - INFO - Epoch 249/1000 | Train Loss: 0.0001612 | Val Loss: 0.0001252 | LR: 0.000504
+2025-08-08 07:47:40,248 - INFO - Epoch 250/1000 | Train Loss: 0.0001560 | Val Loss: 0.0001222 | LR: 0.000500
+2025-08-08 07:47:40,957 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001222
+2025-08-08 07:49:36,352 - INFO - Epoch 251/1000 | Train Loss: 0.0001545 | Val Loss: 0.0001238 | LR: 0.000497
+2025-08-08 07:51:31,758 - INFO - Epoch 252/1000 | Train Loss: 0.0001560 | Val Loss: 0.0001223 | LR: 0.000494
+2025-08-08 07:53:27,195 - INFO - Epoch 253/1000 | Train Loss: 0.0001527 | Val Loss: 0.0001255 | LR: 0.000491
+2025-08-08 07:55:22,542 - INFO - Epoch 254/1000 | Train Loss: 0.0001558 | Val Loss: 0.0001233 | LR: 0.000488
+2025-08-08 07:57:17,921 - INFO - Epoch 255/1000 | Train Loss: 0.0001608 | Val Loss: 0.0001207 | LR: 0.000485
+2025-08-08 07:57:18,670 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001207
+2025-08-08 07:59:14,051 - INFO - Epoch 256/1000 | Train Loss: 0.0001563 | Val Loss: 0.0001255 | LR: 0.000482
+2025-08-08 08:01:09,493 - INFO - Epoch 257/1000 | Train Loss: 0.0001568 | Val Loss: 0.0001230 | LR: 0.000479
+2025-08-08 08:03:04,997 - INFO - Epoch 258/1000 | Train Loss: 0.0001575 | Val Loss: 0.0001209 | LR: 0.000475
+2025-08-08 08:05:00,415 - INFO - Epoch 259/1000 | Train Loss: 0.0001534 | Val Loss: 0.0001235 | LR: 0.000472
+2025-08-08 08:06:55,808 - INFO - Epoch 260/1000 | Train Loss: 0.0001496 | Val Loss: 0.0001227 | LR: 0.000469
+2025-08-08 08:08:51,255 - INFO - Epoch 261/1000 | Train Loss: 0.0001577 | Val Loss: 0.0001217 | LR: 0.000466
+2025-08-08 08:10:46,665 - INFO - Epoch 262/1000 | Train Loss: 0.0001574 | Val Loss: 0.0001235 | LR: 0.000463
+2025-08-08 08:12:42,068 - INFO - Epoch 263/1000 | Train Loss: 0.0001540 | Val Loss: 0.0001192 | LR: 0.000460
+2025-08-08 08:12:42,825 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001192
+2025-08-08 08:14:38,222 - INFO - Epoch 264/1000 | Train Loss: 0.0001519 | Val Loss: 0.0001202 | LR: 0.000457
+2025-08-08 08:16:33,712 - INFO - Epoch 265/1000 | Train Loss: 0.0001540 | Val Loss: 0.0001174 | LR: 0.000453
+2025-08-08 08:16:34,462 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001174
+2025-08-08 08:18:29,874 - INFO - Epoch 266/1000 | Train Loss: 0.0001507 | Val Loss: 0.0001200 | LR: 0.000450
+2025-08-08 08:20:25,297 - INFO - Epoch 267/1000 | Train Loss: 0.0001496 | Val Loss: 0.0001193 | LR: 0.000447
+2025-08-08 08:22:20,743 - INFO - Epoch 268/1000 | Train Loss: 0.0001547 | Val Loss: 0.0001194 | LR: 0.000444
+2025-08-08 08:24:16,138 - INFO - Epoch 269/1000 | Train Loss: 0.0001516 | Val Loss: 0.0001175 | LR: 0.000441
+2025-08-08 08:26:11,600 - INFO - Epoch 270/1000 | Train Loss: 0.0001501 | Val Loss: 0.0001178 | LR: 0.000438
+2025-08-08 08:28:07,199 - INFO - Epoch 271/1000 | Train Loss: 0.0001500 | Val Loss: 0.0001196 | LR: 0.000435
+2025-08-08 08:30:02,637 - INFO - Epoch 272/1000 | Train Loss: 0.0001491 | Val Loss: 0.0001165 | LR: 0.000432
+2025-08-08 08:30:03,393 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001165
+2025-08-08 08:31:58,803 - INFO - Epoch 273/1000 | Train Loss: 0.0001527 | Val Loss: 0.0001209 | LR: 0.000429
+2025-08-08 08:33:54,285 - INFO - Epoch 274/1000 | Train Loss: 0.0001475 | Val Loss: 0.0001158 | LR: 0.000425
+2025-08-08 08:33:55,023 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001158
+2025-08-08 08:35:50,449 - INFO - Epoch 275/1000 | Train Loss: 0.0001448 | Val Loss: 0.0001175 | LR: 0.000422
+2025-08-08 08:37:45,977 - INFO - Epoch 276/1000 | Train Loss: 0.0001465 | Val Loss: 0.0001152 | LR: 0.000419
+2025-08-08 08:37:46,721 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001152
+2025-08-08 08:39:42,128 - INFO - Epoch 277/1000 | Train Loss: 0.0001486 | Val Loss: 0.0001166 | LR: 0.000416
+2025-08-08 08:41:37,591 - INFO - Epoch 278/1000 | Train Loss: 0.0001502 | Val Loss: 0.0001161 | LR: 0.000413
+2025-08-08 08:43:33,060 - INFO - Epoch 279/1000 | Train Loss: 0.0001461 | Val Loss: 0.0001144 | LR: 0.000410
+2025-08-08 08:43:33,807 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001144
+2025-08-08 08:45:29,423 - INFO - Epoch 280/1000 | Train Loss: 0.0001466 | Val Loss: 0.0001147 | LR: 0.000407
+2025-08-08 08:47:24,866 - INFO - Epoch 281/1000 | Train Loss: 0.0001507 | Val Loss: 0.0001173 | LR: 0.000404
+2025-08-08 08:49:20,342 - INFO - Epoch 282/1000 | Train Loss: 0.0001483 | Val Loss: 0.0001175 | LR: 0.000401
+2025-08-08 08:51:15,813 - INFO - Epoch 283/1000 | Train Loss: 0.0001486 | Val Loss: 0.0001202 | LR: 0.000398
+2025-08-08 08:53:11,210 - INFO - Epoch 284/1000 | Train Loss: 0.0001495 | Val Loss: 0.0001137 | LR: 0.000395
+2025-08-08 08:53:11,945 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001137
+2025-08-08 08:55:07,358 - INFO - Epoch 285/1000 | Train Loss: 0.0001452 | Val Loss: 0.0001133 | LR: 0.000392
+2025-08-08 08:55:08,074 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001133
+2025-08-08 08:57:03,759 - INFO - Epoch 286/1000 | Train Loss: 0.0001446 | Val Loss: 0.0001128 | LR: 0.000388
+2025-08-08 08:57:04,466 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001128
+2025-08-08 08:58:59,946 - INFO - Epoch 287/1000 | Train Loss: 0.0001472 | Val Loss: 0.0001135 | LR: 0.000385
+2025-08-08 09:00:55,402 - INFO - Epoch 288/1000 | Train Loss: 0.0001414 | Val Loss: 0.0001127 | LR: 0.000382
+2025-08-08 09:00:56,117 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001127
+2025-08-08 09:02:51,530 - INFO - Epoch 289/1000 | Train Loss: 0.0001430 | Val Loss: 0.0001127 | LR: 0.000379
+2025-08-08 09:02:52,269 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001127
+2025-08-08 09:04:47,645 - INFO - Epoch 290/1000 | Train Loss: 0.0001479 | Val Loss: 0.0001154 | LR: 0.000376
+2025-08-08 09:06:43,124 - INFO - Epoch 291/1000 | Train Loss: 0.0001480 | Val Loss: 0.0001163 | LR: 0.000373
+2025-08-08 09:08:38,603 - INFO - Epoch 292/1000 | Train Loss: 0.0001475 | Val Loss: 0.0001120 | LR: 0.000370
+2025-08-08 09:08:39,326 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001120
+2025-08-08 09:10:34,679 - INFO - Epoch 293/1000 | Train Loss: 0.0001460 | Val Loss: 0.0001140 | LR: 0.000367
+2025-08-08 09:12:30,101 - INFO - Epoch 294/1000 | Train Loss: 0.0001470 | Val Loss: 0.0001128 | LR: 0.000364
+2025-08-08 09:14:25,605 - INFO - Epoch 295/1000 | Train Loss: 0.0001443 | Val Loss: 0.0001118 | LR: 0.000361
+2025-08-08 09:14:26,321 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001118
+2025-08-08 09:16:21,729 - INFO - Epoch 296/1000 | Train Loss: 0.0001451 | Val Loss: 0.0001118 | LR: 0.000358
+2025-08-08 09:16:22,476 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001118
+2025-08-08 09:18:18,056 - INFO - Epoch 297/1000 | Train Loss: 0.0001475 | Val Loss: 0.0001119 | LR: 0.000355
+2025-08-08 09:20:13,834 - INFO - Epoch 298/1000 | Train Loss: 0.0001435 | Val Loss: 0.0001127 | LR: 0.000352
+2025-08-08 09:22:09,269 - INFO - Epoch 299/1000 | Train Loss: 0.0001476 | Val Loss: 0.0001116 | LR: 0.000349
+2025-08-08 09:22:09,973 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001116
+2025-08-08 09:24:05,386 - INFO - Epoch 300/1000 | Train Loss: 0.0001442 | Val Loss: 0.0001201 | LR: 0.000346
+2025-08-08 09:24:06,074 - INFO - Saved periodic checkpoint at epoch 300 to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_epoch_300.pth
+2025-08-08 09:26:01,452 - INFO - Epoch 301/1000 | Train Loss: 0.0001426 | Val Loss: 0.0001107 | LR: 0.000343
+2025-08-08 09:26:02,214 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001107
+2025-08-08 09:27:57,642 - INFO - Epoch 302/1000 | Train Loss: 0.0001460 | Val Loss: 0.0001108 | LR: 0.000340
+2025-08-08 09:29:53,172 - INFO - Epoch 303/1000 | Train Loss: 0.0001454 | Val Loss: 0.0001108 | LR: 0.000337
+2025-08-08 09:31:48,694 - INFO - Epoch 304/1000 | Train Loss: 0.0001458 | Val Loss: 0.0001102 | LR: 0.000334
+2025-08-08 09:31:49,455 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001102
+2025-08-08 09:33:44,876 - INFO - Epoch 305/1000 | Train Loss: 0.0001464 | Val Loss: 0.0001113 | LR: 0.000331
+2025-08-08 09:35:40,304 - INFO - Epoch 306/1000 | Train Loss: 0.0001437 | Val Loss: 0.0001104 | LR: 0.000328
+2025-08-08 09:37:35,717 - INFO - Epoch 307/1000 | Train Loss: 0.0001446 | Val Loss: 0.0001116 | LR: 0.000325
+2025-08-08 09:39:31,410 - INFO - Epoch 308/1000 | Train Loss: 0.0001432 | Val Loss: 0.0001106 | LR: 0.000322
+2025-08-08 09:41:27,010 - INFO - Epoch 309/1000 | Train Loss: 0.0001429 | Val Loss: 0.0001089 | LR: 0.000320
+2025-08-08 09:41:27,712 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001089
+2025-08-08 09:43:23,116 - INFO - Epoch 310/1000 | Train Loss: 0.0001428 | Val Loss: 0.0001092 | LR: 0.000317
+2025-08-08 09:45:18,523 - INFO - Epoch 311/1000 | Train Loss: 0.0001391 | Val Loss: 0.0001093 | LR: 0.000314
+2025-08-08 09:47:14,030 - INFO - Epoch 312/1000 | Train Loss: 0.0001395 | Val Loss: 0.0001091 | LR: 0.000311
+2025-08-08 09:49:09,633 - INFO - Epoch 313/1000 | Train Loss: 0.0001433 | Val Loss: 0.0001080 | LR: 0.000308
+2025-08-08 09:49:10,365 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001080
+2025-08-08 09:51:05,814 - INFO - Epoch 314/1000 | Train Loss: 0.0001441 | Val Loss: 0.0001088 | LR: 0.000305
+2025-08-08 09:53:01,445 - INFO - Epoch 315/1000 | Train Loss: 0.0001365 | Val Loss: 0.0001071 | LR: 0.000302
+2025-08-08 09:53:02,187 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001071
+2025-08-08 09:54:57,591 - INFO - Epoch 316/1000 | Train Loss: 0.0001443 | Val Loss: 0.0001103 | LR: 0.000299
+2025-08-08 09:56:53,037 - INFO - Epoch 317/1000 | Train Loss: 0.0001469 | Val Loss: 0.0001093 | LR: 0.000296
+2025-08-08 09:58:48,503 - INFO - Epoch 318/1000 | Train Loss: 0.0001405 | Val Loss: 0.0001075 | LR: 0.000294
+2025-08-08 10:00:43,930 - INFO - Epoch 319/1000 | Train Loss: 0.0001425 | Val Loss: 0.0001087 | LR: 0.000291
+2025-08-08 10:02:39,423 - INFO - Epoch 320/1000 | Train Loss: 0.0001424 | Val Loss: 0.0001081 | LR: 0.000288
+2025-08-08 10:04:34,926 - INFO - Epoch 321/1000 | Train Loss: 0.0001380 | Val Loss: 0.0001067 | LR: 0.000285
+2025-08-08 10:04:35,643 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001067
+2025-08-08 10:06:31,119 - INFO - Epoch 322/1000 | Train Loss: 0.0001364 | Val Loss: 0.0001068 | LR: 0.000282
+2025-08-08 10:08:26,658 - INFO - Epoch 323/1000 | Train Loss: 0.0001409 | Val Loss: 0.0001076 | LR: 0.000279
+2025-08-08 10:10:22,085 - INFO - Epoch 324/1000 | Train Loss: 0.0001406 | Val Loss: 0.0001067 | LR: 0.000277
+2025-08-08 10:10:22,815 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001067
+2025-08-08 10:12:18,292 - INFO - Epoch 325/1000 | Train Loss: 0.0001390 | Val Loss: 0.0001060 | LR: 0.000274
+2025-08-08 10:12:19,023 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001060
+2025-08-08 10:14:14,452 - INFO - Epoch 326/1000 | Train Loss: 0.0001387 | Val Loss: 0.0001067 | LR: 0.000271
+2025-08-08 10:16:09,911 - INFO - Epoch 327/1000 | Train Loss: 0.0001371 | Val Loss: 0.0001063 | LR: 0.000268
+2025-08-08 10:18:05,545 - INFO - Epoch 328/1000 | Train Loss: 0.0001408 | Val Loss: 0.0001066 | LR: 0.000265
+2025-08-08 10:20:01,030 - INFO - Epoch 329/1000 | Train Loss: 0.0001358 | Val Loss: 0.0001050 | LR: 0.000263
+2025-08-08 10:20:01,783 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001050
+2025-08-08 10:21:57,360 - INFO - Epoch 330/1000 | Train Loss: 0.0001387 | Val Loss: 0.0001054 | LR: 0.000260
+2025-08-08 10:23:52,841 - INFO - Epoch 331/1000 | Train Loss: 0.0001409 | Val Loss: 0.0001061 | LR: 0.000257
+2025-08-08 10:25:48,361 - INFO - Epoch 332/1000 | Train Loss: 0.0001394 | Val Loss: 0.0001056 | LR: 0.000254
+2025-08-08 10:27:43,888 - INFO - Epoch 333/1000 | Train Loss: 0.0001370 | Val Loss: 0.0001046 | LR: 0.000252
+2025-08-08 10:27:44,623 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001046
+2025-08-08 10:29:40,125 - INFO - Epoch 334/1000 | Train Loss: 0.0001387 | Val Loss: 0.0001054 | LR: 0.000249
+2025-08-08 10:31:35,616 - INFO - Epoch 335/1000 | Train Loss: 0.0001377 | Val Loss: 0.0001037 | LR: 0.000246
+2025-08-08 10:31:36,318 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001037
+2025-08-08 10:33:31,721 - INFO - Epoch 336/1000 | Train Loss: 0.0001392 | Val Loss: 0.0001047 | LR: 0.000244
+2025-08-08 10:35:27,170 - INFO - Epoch 337/1000 | Train Loss: 0.0001405 | Val Loss: 0.0001043 | LR: 0.000241
+2025-08-08 10:37:22,605 - INFO - Epoch 338/1000 | Train Loss: 0.0001399 | Val Loss: 0.0001049 | LR: 0.000238
+2025-08-08 10:39:18,125 - INFO - Epoch 339/1000 | Train Loss: 0.0001378 | Val Loss: 0.0001050 | LR: 0.000236
+2025-08-08 10:41:13,820 - INFO - Epoch 340/1000 | Train Loss: 0.0001369 | Val Loss: 0.0001029 | LR: 0.000233
+2025-08-08 10:41:14,500 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001029
+2025-08-08 10:43:10,153 - INFO - Epoch 341/1000 | Train Loss: 0.0001343 | Val Loss: 0.0001047 | LR: 0.000230
+2025-08-08 10:45:05,617 - INFO - Epoch 342/1000 | Train Loss: 0.0001388 | Val Loss: 0.0001028 | LR: 0.000228
+2025-08-08 10:45:06,364 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001028
+2025-08-08 10:47:01,990 - INFO - Epoch 343/1000 | Train Loss: 0.0001390 | Val Loss: 0.0001047 | LR: 0.000225
+2025-08-08 10:48:57,470 - INFO - Epoch 344/1000 | Train Loss: 0.0001338 | Val Loss: 0.0001036 | LR: 0.000222
+2025-08-08 10:50:52,915 - INFO - Epoch 345/1000 | Train Loss: 0.0001373 | Val Loss: 0.0001040 | LR: 0.000220
+2025-08-08 10:52:48,366 - INFO - Epoch 346/1000 | Train Loss: 0.0001371 | Val Loss: 0.0001037 | LR: 0.000217
+2025-08-08 10:54:44,044 - INFO - Epoch 347/1000 | Train Loss: 0.0001368 | Val Loss: 0.0001022 | LR: 0.000215
+2025-08-08 10:54:44,815 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001022
+2025-08-08 10:56:40,196 - INFO - Epoch 348/1000 | Train Loss: 0.0001378 | Val Loss: 0.0001038 | LR: 0.000212
+2025-08-08 10:58:35,741 - INFO - Epoch 349/1000 | Train Loss: 0.0001364 | Val Loss: 0.0001023 | LR: 0.000209
+2025-08-08 11:00:31,231 - INFO - Epoch 350/1000 | Train Loss: 0.0001370 | Val Loss: 0.0001023 | LR: 0.000207
+2025-08-08 11:02:26,696 - INFO - Epoch 351/1000 | Train Loss: 0.0001390 | Val Loss: 0.0001033 | LR: 0.000204
+2025-08-08 11:04:22,159 - INFO - Epoch 352/1000 | Train Loss: 0.0001347 | Val Loss: 0.0001023 | LR: 0.000202
+2025-08-08 11:06:17,611 - INFO - Epoch 353/1000 | Train Loss: 0.0001371 | Val Loss: 0.0001019 | LR: 0.000199
+2025-08-08 11:06:18,385 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001019
+2025-08-08 11:08:13,790 - INFO - Epoch 354/1000 | Train Loss: 0.0001342 | Val Loss: 0.0001022 | LR: 0.000197
+2025-08-08 11:10:09,265 - INFO - Epoch 355/1000 | Train Loss: 0.0001385 | Val Loss: 0.0001019 | LR: 0.000194
+2025-08-08 11:10:10,033 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001019
+2025-08-08 11:12:05,469 - INFO - Epoch 356/1000 | Train Loss: 0.0001367 | Val Loss: 0.0001016 | LR: 0.000192
+2025-08-08 11:12:06,200 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001016
+2025-08-08 11:14:01,613 - INFO - Epoch 357/1000 | Train Loss: 0.0001344 | Val Loss: 0.0001017 | LR: 0.000189
+2025-08-08 11:15:56,954 - INFO - Epoch 358/1000 | Train Loss: 0.0001333 | Val Loss: 0.0001010 | LR: 0.000187
+2025-08-08 11:15:57,685 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001010
+2025-08-08 11:17:53,060 - INFO - Epoch 359/1000 | Train Loss: 0.0001325 | Val Loss: 0.0001015 | LR: 0.000185
+2025-08-08 11:19:48,555 - INFO - Epoch 360/1000 | Train Loss: 0.0001341 | Val Loss: 0.0001003 | LR: 0.000182
+2025-08-08 11:19:49,332 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0001003
+2025-08-08 11:21:44,797 - INFO - Epoch 361/1000 | Train Loss: 0.0001333 | Val Loss: 0.0001005 | LR: 0.000180
+2025-08-08 11:23:40,287 - INFO - Epoch 362/1000 | Train Loss: 0.0001326 | Val Loss: 0.0001009 | LR: 0.000177
+2025-08-08 11:25:35,963 - INFO - Epoch 363/1000 | Train Loss: 0.0001348 | Val Loss: 0.0001014 | LR: 0.000175
+2025-08-08 11:27:31,414 - INFO - Epoch 364/1000 | Train Loss: 0.0001361 | Val Loss: 0.0001004 | LR: 0.000173
+2025-08-08 11:29:26,877 - INFO - Epoch 365/1000 | Train Loss: 0.0001359 | Val Loss: 0.0001013 | LR: 0.000170
+2025-08-08 11:31:22,363 - INFO - Epoch 366/1000 | Train Loss: 0.0001301 | Val Loss: 0.0000999 | LR: 0.000168
+2025-08-08 11:31:23,089 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000999
+2025-08-08 11:33:18,463 - INFO - Epoch 367/1000 | Train Loss: 0.0001358 | Val Loss: 0.0001007 | LR: 0.000165
+2025-08-08 11:35:13,975 - INFO - Epoch 368/1000 | Train Loss: 0.0001326 | Val Loss: 0.0000998 | LR: 0.000163
+2025-08-08 11:35:14,673 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000998
+2025-08-08 11:37:10,052 - INFO - Epoch 369/1000 | Train Loss: 0.0001349 | Val Loss: 0.0001015 | LR: 0.000161
+2025-08-08 11:39:05,480 - INFO - Epoch 370/1000 | Train Loss: 0.0001326 | Val Loss: 0.0001000 | LR: 0.000159
+2025-08-08 11:41:00,963 - INFO - Epoch 371/1000 | Train Loss: 0.0001387 | Val Loss: 0.0001007 | LR: 0.000156
+2025-08-08 11:42:56,480 - INFO - Epoch 372/1000 | Train Loss: 0.0001339 | Val Loss: 0.0000993 | LR: 0.000154
+2025-08-08 11:42:57,180 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000993
+2025-08-08 11:44:52,584 - INFO - Epoch 373/1000 | Train Loss: 0.0001324 | Val Loss: 0.0000992 | LR: 0.000152
+2025-08-08 11:44:53,301 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000992
+2025-08-08 11:46:48,672 - INFO - Epoch 374/1000 | Train Loss: 0.0001308 | Val Loss: 0.0000989 | LR: 0.000150
+2025-08-08 11:46:49,397 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000989
+2025-08-08 11:48:44,769 - INFO - Epoch 375/1000 | Train Loss: 0.0001341 | Val Loss: 0.0001002 | LR: 0.000147
+2025-08-08 11:50:40,256 - INFO - Epoch 376/1000 | Train Loss: 0.0001309 | Val Loss: 0.0000991 | LR: 0.000145
+2025-08-08 11:52:35,911 - INFO - Epoch 377/1000 | Train Loss: 0.0001335 | Val Loss: 0.0000992 | LR: 0.000143
+2025-08-08 11:54:31,311 - INFO - Epoch 378/1000 | Train Loss: 0.0001371 | Val Loss: 0.0000997 | LR: 0.000141
+2025-08-08 11:56:26,817 - INFO - Epoch 379/1000 | Train Loss: 0.0001349 | Val Loss: 0.0000987 | LR: 0.000139
+2025-08-08 11:56:27,553 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000987
+2025-08-08 11:58:23,047 - INFO - Epoch 380/1000 | Train Loss: 0.0001299 | Val Loss: 0.0000980 | LR: 0.000136
+2025-08-08 11:58:23,814 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000980
+2025-08-08 12:00:19,287 - INFO - Epoch 381/1000 | Train Loss: 0.0001319 | Val Loss: 0.0000992 | LR: 0.000134
+2025-08-08 12:02:14,784 - INFO - Epoch 382/1000 | Train Loss: 0.0001323 | Val Loss: 0.0000985 | LR: 0.000132
+2025-08-08 12:04:10,234 - INFO - Epoch 383/1000 | Train Loss: 0.0001316 | Val Loss: 0.0000982 | LR: 0.000130
+2025-08-08 12:06:05,711 - INFO - Epoch 384/1000 | Train Loss: 0.0001296 | Val Loss: 0.0000980 | LR: 0.000128
+2025-08-08 12:08:01,459 - INFO - Epoch 385/1000 | Train Loss: 0.0001333 | Val Loss: 0.0000985 | LR: 0.000126
+2025-08-08 12:09:56,997 - INFO - Epoch 386/1000 | Train Loss: 0.0001323 | Val Loss: 0.0000981 | LR: 0.000124
+2025-08-08 12:11:52,625 - INFO - Epoch 387/1000 | Train Loss: 0.0001325 | Val Loss: 0.0000990 | LR: 0.000122
+2025-08-08 12:13:48,105 - INFO - Epoch 388/1000 | Train Loss: 0.0001311 | Val Loss: 0.0000996 | LR: 0.000120
+2025-08-08 12:15:43,803 - INFO - Epoch 389/1000 | Train Loss: 0.0001329 | Val Loss: 0.0000977 | LR: 0.000118
+2025-08-08 12:15:44,532 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000977
+2025-08-08 12:17:39,926 - INFO - Epoch 390/1000 | Train Loss: 0.0001316 | Val Loss: 0.0000977 | LR: 0.000116
+2025-08-08 12:17:40,689 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000977
+2025-08-08 12:19:36,064 - INFO - Epoch 391/1000 | Train Loss: 0.0001302 | Val Loss: 0.0000980 | LR: 0.000114
+2025-08-08 12:21:31,631 - INFO - Epoch 392/1000 | Train Loss: 0.0001305 | Val Loss: 0.0000973 | LR: 0.000112
+2025-08-08 12:21:32,362 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000973
+2025-08-08 12:23:27,736 - INFO - Epoch 393/1000 | Train Loss: 0.0001303 | Val Loss: 0.0000971 | LR: 0.000110
+2025-08-08 12:23:28,442 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000971
+2025-08-08 12:25:23,804 - INFO - Epoch 394/1000 | Train Loss: 0.0001289 | Val Loss: 0.0000978 | LR: 0.000108
+2025-08-08 12:27:19,269 - INFO - Epoch 395/1000 | Train Loss: 0.0001307 | Val Loss: 0.0000978 | LR: 0.000106
+2025-08-08 12:29:15,079 - INFO - Epoch 396/1000 | Train Loss: 0.0001324 | Val Loss: 0.0000974 | LR: 0.000104
+2025-08-08 12:31:10,574 - INFO - Epoch 397/1000 | Train Loss: 0.0001278 | Val Loss: 0.0000972 | LR: 0.000102
+2025-08-08 12:33:06,063 - INFO - Epoch 398/1000 | Train Loss: 0.0001318 | Val Loss: 0.0000971 | LR: 0.000100
+2025-08-08 12:33:06,805 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000971
+2025-08-08 12:35:02,189 - INFO - Epoch 399/1000 | Train Loss: 0.0001339 | Val Loss: 0.0000970 | LR: 0.000098
+2025-08-08 12:35:02,969 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000970
+2025-08-08 12:36:58,336 - INFO - Epoch 400/1000 | Train Loss: 0.0001303 | Val Loss: 0.0000966 | LR: 0.000096
+2025-08-08 12:36:59,071 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000966
+2025-08-08 12:36:59,735 - INFO - Saved periodic checkpoint at epoch 400 to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_epoch_400.pth
+2025-08-08 12:38:55,178 - INFO - Epoch 401/1000 | Train Loss: 0.0001270 | Val Loss: 0.0000965 | LR: 0.000095
+2025-08-08 12:38:55,879 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000965
+2025-08-08 12:40:51,292 - INFO - Epoch 402/1000 | Train Loss: 0.0001280 | Val Loss: 0.0000964 | LR: 0.000093
+2025-08-08 12:40:52,052 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000964
+2025-08-08 12:42:47,482 - INFO - Epoch 403/1000 | Train Loss: 0.0001286 | Val Loss: 0.0000962 | LR: 0.000091
+2025-08-08 12:42:48,229 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000962
+2025-08-08 12:44:43,671 - INFO - Epoch 404/1000 | Train Loss: 0.0001332 | Val Loss: 0.0000966 | LR: 0.000089
+2025-08-08 12:46:39,111 - INFO - Epoch 405/1000 | Train Loss: 0.0001295 | Val Loss: 0.0000964 | LR: 0.000087
+2025-08-08 12:48:34,606 - INFO - Epoch 406/1000 | Train Loss: 0.0001282 | Val Loss: 0.0000964 | LR: 0.000086
+2025-08-08 12:50:30,080 - INFO - Epoch 407/1000 | Train Loss: 0.0001276 | Val Loss: 0.0000961 | LR: 0.000084
+2025-08-08 12:50:30,804 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000961
+2025-08-08 12:52:26,208 - INFO - Epoch 408/1000 | Train Loss: 0.0001260 | Val Loss: 0.0000958 | LR: 0.000082
+2025-08-08 12:52:26,895 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000958
+2025-08-08 12:54:22,348 - INFO - Epoch 409/1000 | Train Loss: 0.0001299 | Val Loss: 0.0000957 | LR: 0.000080
+2025-08-08 12:54:23,073 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000957
+2025-08-08 12:56:18,648 - INFO - Epoch 410/1000 | Train Loss: 0.0001286 | Val Loss: 0.0000958 | LR: 0.000079
+2025-08-08 12:58:14,066 - INFO - Epoch 411/1000 | Train Loss: 0.0001267 | Val Loss: 0.0000956 | LR: 0.000077
+2025-08-08 12:58:14,774 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000956
+2025-08-08 13:00:10,127 - INFO - Epoch 412/1000 | Train Loss: 0.0001290 | Val Loss: 0.0000954 | LR: 0.000075
+2025-08-08 13:00:10,871 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000954
+2025-08-08 13:02:06,222 - INFO - Epoch 413/1000 | Train Loss: 0.0001295 | Val Loss: 0.0000960 | LR: 0.000074
+2025-08-08 13:04:01,794 - INFO - Epoch 414/1000 | Train Loss: 0.0001293 | Val Loss: 0.0000954 | LR: 0.000072
+2025-08-08 13:04:02,520 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000954
+2025-08-08 13:05:58,250 - INFO - Epoch 415/1000 | Train Loss: 0.0001313 | Val Loss: 0.0000955 | LR: 0.000071
+2025-08-08 13:07:53,741 - INFO - Epoch 416/1000 | Train Loss: 0.0001251 | Val Loss: 0.0000958 | LR: 0.000069
+2025-08-08 13:09:49,262 - INFO - Epoch 417/1000 | Train Loss: 0.0001255 | Val Loss: 0.0000952 | LR: 0.000067
+2025-08-08 13:09:50,006 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000952
+2025-08-08 13:11:45,419 - INFO - Epoch 418/1000 | Train Loss: 0.0001299 | Val Loss: 0.0000958 | LR: 0.000066
+2025-08-08 13:13:40,892 - INFO - Epoch 419/1000 | Train Loss: 0.0001296 | Val Loss: 0.0000952 | LR: 0.000064
+2025-08-08 13:15:36,365 - INFO - Epoch 420/1000 | Train Loss: 0.0001305 | Val Loss: 0.0000951 | LR: 0.000063
+2025-08-08 13:15:37,062 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000951
+2025-08-08 13:17:32,715 - INFO - Epoch 421/1000 | Train Loss: 0.0001269 | Val Loss: 0.0000953 | LR: 0.000061
+2025-08-08 13:19:28,152 - INFO - Epoch 422/1000 | Train Loss: 0.0001285 | Val Loss: 0.0000953 | LR: 0.000060
+2025-08-08 13:21:23,736 - INFO - Epoch 423/1000 | Train Loss: 0.0001274 | Val Loss: 0.0000948 | LR: 0.000058
+2025-08-08 13:21:24,456 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000948
+2025-08-08 13:23:19,847 - INFO - Epoch 424/1000 | Train Loss: 0.0001305 | Val Loss: 0.0000952 | LR: 0.000057
+2025-08-08 13:25:15,295 - INFO - Epoch 425/1000 | Train Loss: 0.0001347 | Val Loss: 0.0000953 | LR: 0.000055
+2025-08-08 13:27:10,837 - INFO - Epoch 426/1000 | Train Loss: 0.0001251 | Val Loss: 0.0000947 | LR: 0.000054
+2025-08-08 13:27:11,553 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000947
+2025-08-08 13:29:06,919 - INFO - Epoch 427/1000 | Train Loss: 0.0001268 | Val Loss: 0.0000949 | LR: 0.000053
+2025-08-08 13:31:02,621 - INFO - Epoch 428/1000 | Train Loss: 0.0001245 | Val Loss: 0.0000950 | LR: 0.000051
+2025-08-08 13:32:58,082 - INFO - Epoch 429/1000 | Train Loss: 0.0001289 | Val Loss: 0.0000946 | LR: 0.000050
+2025-08-08 13:32:58,824 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000946
+2025-08-08 13:34:54,293 - INFO - Epoch 430/1000 | Train Loss: 0.0001290 | Val Loss: 0.0000943 | LR: 0.000049
+2025-08-08 13:34:55,031 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000943
+2025-08-08 13:36:50,401 - INFO - Epoch 431/1000 | Train Loss: 0.0001287 | Val Loss: 0.0000946 | LR: 0.000047
+2025-08-08 13:38:45,911 - INFO - Epoch 432/1000 | Train Loss: 0.0001280 | Val Loss: 0.0000942 | LR: 0.000046
+2025-08-08 13:38:46,676 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000942
+2025-08-08 13:40:42,045 - INFO - Epoch 433/1000 | Train Loss: 0.0001291 | Val Loss: 0.0000945 | LR: 0.000045
+2025-08-08 13:42:37,576 - INFO - Epoch 434/1000 | Train Loss: 0.0001278 | Val Loss: 0.0000945 | LR: 0.000043
+2025-08-08 13:44:33,046 - INFO - Epoch 435/1000 | Train Loss: 0.0001304 | Val Loss: 0.0000943 | LR: 0.000042
+2025-08-08 13:46:28,492 - INFO - Epoch 436/1000 | Train Loss: 0.0001267 | Val Loss: 0.0000945 | LR: 0.000041
+2025-08-08 13:48:23,928 - INFO - Epoch 437/1000 | Train Loss: 0.0001307 | Val Loss: 0.0000943 | LR: 0.000040
+2025-08-08 13:50:19,377 - INFO - Epoch 438/1000 | Train Loss: 0.0001252 | Val Loss: 0.0000941 | LR: 0.000038
+2025-08-08 13:50:20,108 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000941
+2025-08-08 13:52:15,464 - INFO - Epoch 439/1000 | Train Loss: 0.0001264 | Val Loss: 0.0000941 | LR: 0.000037
+2025-08-08 13:54:11,165 - INFO - Epoch 440/1000 | Train Loss: 0.0001295 | Val Loss: 0.0000943 | LR: 0.000036
+2025-08-08 13:56:06,686 - INFO - Epoch 441/1000 | Train Loss: 0.0001299 | Val Loss: 0.0000940 | LR: 0.000035
+2025-08-08 13:56:07,444 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000940
+2025-08-08 13:58:02,837 - INFO - Epoch 442/1000 | Train Loss: 0.0001266 | Val Loss: 0.0000940 | LR: 0.000034
+2025-08-08 13:59:58,243 - INFO - Epoch 443/1000 | Train Loss: 0.0001300 | Val Loss: 0.0000937 | LR: 0.000033
+2025-08-08 13:59:58,993 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000937
+2025-08-08 14:01:54,404 - INFO - Epoch 444/1000 | Train Loss: 0.0001266 | Val Loss: 0.0000941 | LR: 0.000032
+2025-08-08 14:03:50,127 - INFO - Epoch 445/1000 | Train Loss: 0.0001300 | Val Loss: 0.0000938 | LR: 0.000031
+2025-08-08 14:05:45,632 - INFO - Epoch 446/1000 | Train Loss: 0.0001281 | Val Loss: 0.0000939 | LR: 0.000029
+2025-08-08 14:07:41,172 - INFO - Epoch 447/1000 | Train Loss: 0.0001269 | Val Loss: 0.0000937 | LR: 0.000028
+2025-08-08 14:07:41,891 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000937
+2025-08-08 14:09:37,342 - INFO - Epoch 448/1000 | Train Loss: 0.0001243 | Val Loss: 0.0000935 | LR: 0.000027
+2025-08-08 14:09:38,063 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000935
+2025-08-08 14:11:33,453 - INFO - Epoch 449/1000 | Train Loss: 0.0001278 | Val Loss: 0.0000937 | LR: 0.000026
+2025-08-08 14:13:28,944 - INFO - Epoch 450/1000 | Train Loss: 0.0001232 | Val Loss: 0.0000936 | LR: 0.000025
+2025-08-08 14:15:24,388 - INFO - Epoch 451/1000 | Train Loss: 0.0001272 | Val Loss: 0.0000935 | LR: 0.000024
+2025-08-08 14:17:19,791 - INFO - Epoch 452/1000 | Train Loss: 0.0001277 | Val Loss: 0.0000937 | LR: 0.000024
+2025-08-08 14:19:15,256 - INFO - Epoch 453/1000 | Train Loss: 0.0001268 | Val Loss: 0.0000937 | LR: 0.000023
+2025-08-08 14:21:10,636 - INFO - Epoch 454/1000 | Train Loss: 0.0001278 | Val Loss: 0.0000934 | LR: 0.000022
+2025-08-08 14:21:11,354 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000934
+2025-08-08 14:23:06,732 - INFO - Epoch 455/1000 | Train Loss: 0.0001289 | Val Loss: 0.0000934 | LR: 0.000021
+2025-08-08 14:25:02,160 - INFO - Epoch 456/1000 | Train Loss: 0.0001244 | Val Loss: 0.0000936 | LR: 0.000020
+2025-08-08 14:26:57,617 - INFO - Epoch 457/1000 | Train Loss: 0.0001263 | Val Loss: 0.0000936 | LR: 0.000019
+2025-08-08 14:28:53,057 - INFO - Epoch 458/1000 | Train Loss: 0.0001263 | Val Loss: 0.0000934 | LR: 0.000018
+2025-08-08 14:30:48,494 - INFO - Epoch 459/1000 | Train Loss: 0.0001296 | Val Loss: 0.0000933 | LR: 0.000017
+2025-08-08 14:30:49,254 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000933
+2025-08-08 14:32:44,614 - INFO - Epoch 460/1000 | Train Loss: 0.0001256 | Val Loss: 0.0000934 | LR: 0.000017
+2025-08-08 14:34:40,065 - INFO - Epoch 461/1000 | Train Loss: 0.0001267 | Val Loss: 0.0000932 | LR: 0.000016
+2025-08-08 14:34:40,791 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000932
+2025-08-08 14:36:36,264 - INFO - Epoch 462/1000 | Train Loss: 0.0001270 | Val Loss: 0.0000936 | LR: 0.000015
+2025-08-08 14:38:31,697 - INFO - Epoch 463/1000 | Train Loss: 0.0001281 | Val Loss: 0.0000932 | LR: 0.000014
+2025-08-08 14:40:27,158 - INFO - Epoch 464/1000 | Train Loss: 0.0001247 | Val Loss: 0.0000934 | LR: 0.000014
+2025-08-08 14:42:22,803 - INFO - Epoch 465/1000 | Train Loss: 0.0001269 | Val Loss: 0.0000933 | LR: 0.000013
+2025-08-08 14:44:18,262 - INFO - Epoch 466/1000 | Train Loss: 0.0001262 | Val Loss: 0.0000932 | LR: 0.000012
+2025-08-08 14:46:13,720 - INFO - Epoch 467/1000 | Train Loss: 0.0001264 | Val Loss: 0.0000933 | LR: 0.000012
+2025-08-08 14:48:09,171 - INFO - Epoch 468/1000 | Train Loss: 0.0001307 | Val Loss: 0.0000933 | LR: 0.000011
+2025-08-08 14:50:04,543 - INFO - Epoch 469/1000 | Train Loss: 0.0001283 | Val Loss: 0.0000930 | LR: 0.000010
+2025-08-08 14:50:05,267 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000930
+2025-08-08 14:52:00,651 - INFO - Epoch 470/1000 | Train Loss: 0.0001278 | Val Loss: 0.0000931 | LR: 0.000010
+2025-08-08 14:53:56,063 - INFO - Epoch 471/1000 | Train Loss: 0.0001252 | Val Loss: 0.0000930 | LR: 0.000009
+2025-08-08 14:53:56,809 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000930
+2025-08-08 14:55:52,425 - INFO - Epoch 472/1000 | Train Loss: 0.0001254 | Val Loss: 0.0000931 | LR: 0.000009
+2025-08-08 14:57:48,078 - INFO - Epoch 473/1000 | Train Loss: 0.0001266 | Val Loss: 0.0000930 | LR: 0.000008
+2025-08-08 14:59:43,465 - INFO - Epoch 474/1000 | Train Loss: 0.0001259 | Val Loss: 0.0000930 | LR: 0.000008
+2025-08-08 15:01:38,886 - INFO - Epoch 475/1000 | Train Loss: 0.0001278 | Val Loss: 0.0000931 | LR: 0.000007
+2025-08-08 15:03:34,305 - INFO - Epoch 476/1000 | Train Loss: 0.0001262 | Val Loss: 0.0000930 | LR: 0.000007
+2025-08-08 15:05:29,762 - INFO - Epoch 477/1000 | Train Loss: 0.0001273 | Val Loss: 0.0000929 | LR: 0.000006
+2025-08-08 15:05:30,494 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000929
+2025-08-08 15:07:25,833 - INFO - Epoch 478/1000 | Train Loss: 0.0001259 | Val Loss: 0.0000929 | LR: 0.000006
+2025-08-08 15:09:21,309 - INFO - Epoch 479/1000 | Train Loss: 0.0001281 | Val Loss: 0.0000930 | LR: 0.000005
+2025-08-08 15:11:16,927 - INFO - Epoch 480/1000 | Train Loss: 0.0001259 | Val Loss: 0.0000930 | LR: 0.000005
+2025-08-08 15:13:12,316 - INFO - Epoch 481/1000 | Train Loss: 0.0001261 | Val Loss: 0.0000929 | LR: 0.000005
+2025-08-08 15:15:07,752 - INFO - Epoch 482/1000 | Train Loss: 0.0001279 | Val Loss: 0.0000929 | LR: 0.000004
+2025-08-08 15:17:03,164 - INFO - Epoch 483/1000 | Train Loss: 0.0001264 | Val Loss: 0.0000929 | LR: 0.000004
+2025-08-08 15:17:03,914 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000929
+2025-08-08 15:18:59,346 - INFO - Epoch 484/1000 | Train Loss: 0.0001270 | Val Loss: 0.0000929 | LR: 0.000004
+2025-08-08 15:19:00,082 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000929
+2025-08-08 15:20:55,481 - INFO - Epoch 485/1000 | Train Loss: 0.0001222 | Val Loss: 0.0000928 | LR: 0.000003
+2025-08-08 15:20:56,215 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000928
+2025-08-08 15:22:51,625 - INFO - Epoch 486/1000 | Train Loss: 0.0001246 | Val Loss: 0.0000929 | LR: 0.000003
+2025-08-08 15:24:47,135 - INFO - Epoch 487/1000 | Train Loss: 0.0001258 | Val Loss: 0.0000928 | LR: 0.000003
+2025-08-08 15:24:47,887 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000928
+2025-08-08 15:26:43,317 - INFO - Epoch 488/1000 | Train Loss: 0.0001243 | Val Loss: 0.0000928 | LR: 0.000002
+2025-08-08 15:26:44,058 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000928
+2025-08-08 15:28:39,409 - INFO - Epoch 489/1000 | Train Loss: 0.0001286 | Val Loss: 0.0000928 | LR: 0.000002
+2025-08-08 15:30:34,919 - INFO - Epoch 490/1000 | Train Loss: 0.0001289 | Val Loss: 0.0000928 | LR: 0.000002
+2025-08-08 15:32:30,313 - INFO - Epoch 491/1000 | Train Loss: 0.0001260 | Val Loss: 0.0000928 | LR: 0.000002
+2025-08-08 15:34:25,728 - INFO - Epoch 492/1000 | Train Loss: 0.0001275 | Val Loss: 0.0000928 | LR: 0.000002
+2025-08-08 15:34:26,439 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000928
+2025-08-08 15:36:21,842 - INFO - Epoch 493/1000 | Train Loss: 0.0001268 | Val Loss: 0.0000928 | LR: 0.000001
+2025-08-08 15:38:17,238 - INFO - Epoch 494/1000 | Train Loss: 0.0001245 | Val Loss: 0.0000928 | LR: 0.000001
+2025-08-08 15:40:12,661 - INFO - Epoch 495/1000 | Train Loss: 0.0001257 | Val Loss: 0.0000929 | LR: 0.000001
+2025-08-08 15:42:08,177 - INFO - Epoch 496/1000 | Train Loss: 0.0001269 | Val Loss: 0.0000928 | LR: 0.000001
+2025-08-08 15:44:03,622 - INFO - Epoch 497/1000 | Train Loss: 0.0001307 | Val Loss: 0.0000928 | LR: 0.000001
+2025-08-08 15:45:59,208 - INFO - Epoch 498/1000 | Train Loss: 0.0001314 | Val Loss: 0.0000928 | LR: 0.000001
+2025-08-08 15:47:54,669 - INFO - Epoch 499/1000 | Train Loss: 0.0001282 | Val Loss: 0.0000927 | LR: 0.000001
+2025-08-08 15:47:55,408 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000927
+2025-08-08 15:49:50,756 - INFO - Epoch 500/1000 | Train Loss: 0.0001250 | Val Loss: 0.0000929 | LR: 0.000001
+2025-08-08 15:49:51,494 - INFO - Saved periodic checkpoint at epoch 500 to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_epoch_500.pth
+2025-08-08 15:51:46,914 - INFO - Epoch 501/1000 | Train Loss: 0.0001252 | Val Loss: 0.0000929 | LR: 0.000001
+2025-08-08 15:53:42,414 - INFO - Epoch 502/1000 | Train Loss: 0.0001284 | Val Loss: 0.0000928 | LR: 0.000001
+2025-08-08 15:55:37,881 - INFO - Epoch 503/1000 | Train Loss: 0.0001266 | Val Loss: 0.0000928 | LR: 0.000001
+2025-08-08 15:57:33,337 - INFO - Epoch 504/1000 | Train Loss: 0.0001247 | Val Loss: 0.0000928 | LR: 0.000001
+2025-08-08 15:59:28,796 - INFO - Epoch 505/1000 | Train Loss: 0.0001253 | Val Loss: 0.0000928 | LR: 0.000001
+2025-08-08 16:01:24,210 - INFO - Epoch 506/1000 | Train Loss: 0.0001255 | Val Loss: 0.0000928 | LR: 0.000001
+2025-08-08 16:03:19,919 - INFO - Epoch 507/1000 | Train Loss: 0.0001264 | Val Loss: 0.0000928 | LR: 0.000001
+2025-08-08 16:05:15,354 - INFO - Epoch 508/1000 | Train Loss: 0.0001261 | Val Loss: 0.0000928 | LR: 0.000002
+2025-08-08 16:07:10,822 - INFO - Epoch 509/1000 | Train Loss: 0.0001223 | Val Loss: 0.0000928 | LR: 0.000002
+2025-08-08 16:09:06,266 - INFO - Epoch 510/1000 | Train Loss: 0.0001276 | Val Loss: 0.0000928 | LR: 0.000002
+2025-08-08 16:11:01,806 - INFO - Epoch 511/1000 | Train Loss: 0.0001274 | Val Loss: 0.0000927 | LR: 0.000002
+2025-08-08 16:12:57,367 - INFO - Epoch 512/1000 | Train Loss: 0.0001283 | Val Loss: 0.0000928 | LR: 0.000002
+2025-08-08 16:14:52,855 - INFO - Epoch 513/1000 | Train Loss: 0.0001275 | Val Loss: 0.0000928 | LR: 0.000003
+2025-08-08 16:16:48,335 - INFO - Epoch 514/1000 | Train Loss: 0.0001275 | Val Loss: 0.0000928 | LR: 0.000003
+2025-08-08 16:18:43,747 - INFO - Epoch 515/1000 | Train Loss: 0.0001253 | Val Loss: 0.0000928 | LR: 0.000003
+2025-08-08 16:20:39,253 - INFO - Epoch 516/1000 | Train Loss: 0.0001273 | Val Loss: 0.0000928 | LR: 0.000004
+2025-08-08 16:22:34,715 - INFO - Epoch 517/1000 | Train Loss: 0.0001248 | Val Loss: 0.0000928 | LR: 0.000004
+2025-08-08 16:24:30,165 - INFO - Epoch 518/1000 | Train Loss: 0.0001242 | Val Loss: 0.0000929 | LR: 0.000004
+2025-08-08 16:26:25,646 - INFO - Epoch 519/1000 | Train Loss: 0.0001252 | Val Loss: 0.0000928 | LR: 0.000005
+2025-08-08 16:28:21,133 - INFO - Epoch 520/1000 | Train Loss: 0.0001247 | Val Loss: 0.0000929 | LR: 0.000005
+2025-08-08 16:30:16,566 - INFO - Epoch 521/1000 | Train Loss: 0.0001245 | Val Loss: 0.0000928 | LR: 0.000005
+2025-08-08 16:32:11,992 - INFO - Epoch 522/1000 | Train Loss: 0.0001269 | Val Loss: 0.0000928 | LR: 0.000006
+2025-08-08 16:34:07,420 - INFO - Epoch 523/1000 | Train Loss: 0.0001271 | Val Loss: 0.0000929 | LR: 0.000006
+2025-08-08 16:36:02,958 - INFO - Epoch 524/1000 | Train Loss: 0.0001273 | Val Loss: 0.0000929 | LR: 0.000007
+2025-08-08 16:37:58,602 - INFO - Epoch 525/1000 | Train Loss: 0.0001325 | Val Loss: 0.0000928 | LR: 0.000007
+2025-08-08 16:39:54,138 - INFO - Epoch 526/1000 | Train Loss: 0.0001242 | Val Loss: 0.0000928 | LR: 0.000008
+2025-08-08 16:41:49,620 - INFO - Epoch 527/1000 | Train Loss: 0.0001281 | Val Loss: 0.0000929 | LR: 0.000008
+2025-08-08 16:43:45,096 - INFO - Epoch 528/1000 | Train Loss: 0.0001252 | Val Loss: 0.0000930 | LR: 0.000009
+2025-08-08 16:45:40,537 - INFO - Epoch 529/1000 | Train Loss: 0.0001235 | Val Loss: 0.0000929 | LR: 0.000009
+2025-08-08 16:47:35,986 - INFO - Epoch 530/1000 | Train Loss: 0.0001241 | Val Loss: 0.0000928 | LR: 0.000010
+2025-08-08 16:49:31,473 - INFO - Epoch 531/1000 | Train Loss: 0.0001278 | Val Loss: 0.0000930 | LR: 0.000010
+2025-08-08 16:51:27,218 - INFO - Epoch 532/1000 | Train Loss: 0.0001251 | Val Loss: 0.0000929 | LR: 0.000011
+2025-08-08 16:53:22,715 - INFO - Epoch 533/1000 | Train Loss: 0.0001251 | Val Loss: 0.0000931 | LR: 0.000012
+2025-08-08 16:55:18,157 - INFO - Epoch 534/1000 | Train Loss: 0.0001277 | Val Loss: 0.0000929 | LR: 0.000012
+2025-08-08 16:57:13,643 - INFO - Epoch 535/1000 | Train Loss: 0.0001239 | Val Loss: 0.0000928 | LR: 0.000013
+2025-08-08 16:59:09,106 - INFO - Epoch 536/1000 | Train Loss: 0.0001235 | Val Loss: 0.0000928 | LR: 0.000014
+2025-08-08 17:01:04,567 - INFO - Epoch 537/1000 | Train Loss: 0.0001243 | Val Loss: 0.0000928 | LR: 0.000014
+2025-08-08 17:03:00,005 - INFO - Epoch 538/1000 | Train Loss: 0.0001277 | Val Loss: 0.0000931 | LR: 0.000015
+2025-08-08 17:04:55,478 - INFO - Epoch 539/1000 | Train Loss: 0.0001237 | Val Loss: 0.0000929 | LR: 0.000016
+2025-08-08 17:06:51,191 - INFO - Epoch 540/1000 | Train Loss: 0.0001230 | Val Loss: 0.0000928 | LR: 0.000017
+2025-08-08 17:08:46,639 - INFO - Epoch 541/1000 | Train Loss: 0.0001246 | Val Loss: 0.0000928 | LR: 0.000017
+2025-08-08 17:10:42,417 - INFO - Epoch 542/1000 | Train Loss: 0.0001293 | Val Loss: 0.0000928 | LR: 0.000018
+2025-08-08 17:12:37,873 - INFO - Epoch 543/1000 | Train Loss: 0.0001239 | Val Loss: 0.0000930 | LR: 0.000019
+2025-08-08 17:14:33,312 - INFO - Epoch 544/1000 | Train Loss: 0.0001247 | Val Loss: 0.0000930 | LR: 0.000020
+2025-08-08 17:16:28,908 - INFO - Epoch 545/1000 | Train Loss: 0.0001256 | Val Loss: 0.0000929 | LR: 0.000021
+2025-08-08 17:18:24,358 - INFO - Epoch 546/1000 | Train Loss: 0.0001259 | Val Loss: 0.0000929 | LR: 0.000022
+2025-08-08 17:20:19,923 - INFO - Epoch 547/1000 | Train Loss: 0.0001272 | Val Loss: 0.0000931 | LR: 0.000023
+2025-08-08 17:22:15,381 - INFO - Epoch 548/1000 | Train Loss: 0.0001301 | Val Loss: 0.0000932 | LR: 0.000024
+2025-08-08 17:24:10,833 - INFO - Epoch 549/1000 | Train Loss: 0.0001276 | Val Loss: 0.0000931 | LR: 0.000024
+2025-08-08 17:26:06,299 - INFO - Epoch 550/1000 | Train Loss: 0.0001281 | Val Loss: 0.0000935 | LR: 0.000025
+2025-08-08 17:28:01,809 - INFO - Epoch 551/1000 | Train Loss: 0.0001263 | Val Loss: 0.0000930 | LR: 0.000026
+2025-08-08 17:29:57,283 - INFO - Epoch 552/1000 | Train Loss: 0.0001271 | Val Loss: 0.0000933 | LR: 0.000027
+2025-08-08 17:31:52,699 - INFO - Epoch 553/1000 | Train Loss: 0.0001292 | Val Loss: 0.0000930 | LR: 0.000028
+2025-08-08 17:33:48,172 - INFO - Epoch 554/1000 | Train Loss: 0.0001237 | Val Loss: 0.0000933 | LR: 0.000029
+2025-08-08 17:35:43,614 - INFO - Epoch 555/1000 | Train Loss: 0.0001316 | Val Loss: 0.0000933 | LR: 0.000031
+2025-08-08 17:37:39,046 - INFO - Epoch 556/1000 | Train Loss: 0.0001281 | Val Loss: 0.0000931 | LR: 0.000032
+2025-08-08 17:39:34,478 - INFO - Epoch 557/1000 | Train Loss: 0.0001266 | Val Loss: 0.0000933 | LR: 0.000033
+2025-08-08 17:41:29,927 - INFO - Epoch 558/1000 | Train Loss: 0.0001281 | Val Loss: 0.0000933 | LR: 0.000034
+2025-08-08 17:43:25,613 - INFO - Epoch 559/1000 | Train Loss: 0.0001246 | Val Loss: 0.0000932 | LR: 0.000035
+2025-08-08 17:45:21,398 - INFO - Epoch 560/1000 | Train Loss: 0.0001273 | Val Loss: 0.0000933 | LR: 0.000036
+2025-08-08 17:47:16,806 - INFO - Epoch 561/1000 | Train Loss: 0.0001252 | Val Loss: 0.0000934 | LR: 0.000037
+2025-08-08 17:49:12,249 - INFO - Epoch 562/1000 | Train Loss: 0.0001254 | Val Loss: 0.0000936 | LR: 0.000038
+2025-08-08 17:51:07,682 - INFO - Epoch 563/1000 | Train Loss: 0.0001289 | Val Loss: 0.0000934 | LR: 0.000040
+2025-08-08 17:53:03,107 - INFO - Epoch 564/1000 | Train Loss: 0.0001287 | Val Loss: 0.0000930 | LR: 0.000041
+2025-08-08 17:54:58,742 - INFO - Epoch 565/1000 | Train Loss: 0.0001279 | Val Loss: 0.0000935 | LR: 0.000042
+2025-08-08 17:56:54,187 - INFO - Epoch 566/1000 | Train Loss: 0.0001269 | Val Loss: 0.0000935 | LR: 0.000043
+2025-08-08 17:58:49,777 - INFO - Epoch 567/1000 | Train Loss: 0.0001240 | Val Loss: 0.0000934 | LR: 0.000045
+2025-08-08 18:00:45,354 - INFO - Epoch 568/1000 | Train Loss: 0.0001307 | Val Loss: 0.0000936 | LR: 0.000046
+2025-08-08 18:02:40,805 - INFO - Epoch 569/1000 | Train Loss: 0.0001238 | Val Loss: 0.0000935 | LR: 0.000047
+2025-08-08 18:04:36,254 - INFO - Epoch 570/1000 | Train Loss: 0.0001266 | Val Loss: 0.0000935 | LR: 0.000049
+2025-08-08 18:06:31,710 - INFO - Epoch 571/1000 | Train Loss: 0.0001256 | Val Loss: 0.0000938 | LR: 0.000050
+2025-08-08 18:08:27,216 - INFO - Epoch 572/1000 | Train Loss: 0.0001296 | Val Loss: 0.0000941 | LR: 0.000051
+2025-08-08 18:10:22,744 - INFO - Epoch 573/1000 | Train Loss: 0.0001260 | Val Loss: 0.0000933 | LR: 0.000053
+2025-08-08 18:12:18,145 - INFO - Epoch 574/1000 | Train Loss: 0.0001280 | Val Loss: 0.0000938 | LR: 0.000054
+2025-08-08 18:14:13,576 - INFO - Epoch 575/1000 | Train Loss: 0.0001263 | Val Loss: 0.0000935 | LR: 0.000055
+2025-08-08 18:16:08,998 - INFO - Epoch 576/1000 | Train Loss: 0.0001294 | Val Loss: 0.0000934 | LR: 0.000057
+2025-08-08 18:18:04,646 - INFO - Epoch 577/1000 | Train Loss: 0.0001304 | Val Loss: 0.0000937 | LR: 0.000058
+2025-08-08 18:20:00,096 - INFO - Epoch 578/1000 | Train Loss: 0.0001241 | Val Loss: 0.0000934 | LR: 0.000060
+2025-08-08 18:21:55,597 - INFO - Epoch 579/1000 | Train Loss: 0.0001244 | Val Loss: 0.0000936 | LR: 0.000061
+2025-08-08 18:23:51,080 - INFO - Epoch 580/1000 | Train Loss: 0.0001266 | Val Loss: 0.0000935 | LR: 0.000063
+2025-08-08 18:25:46,518 - INFO - Epoch 581/1000 | Train Loss: 0.0001262 | Val Loss: 0.0000941 | LR: 0.000064
+2025-08-08 18:27:42,036 - INFO - Epoch 582/1000 | Train Loss: 0.0001313 | Val Loss: 0.0000943 | LR: 0.000066
+2025-08-08 18:29:37,517 - INFO - Epoch 583/1000 | Train Loss: 0.0001284 | Val Loss: 0.0000940 | LR: 0.000067
+2025-08-08 18:31:33,202 - INFO - Epoch 584/1000 | Train Loss: 0.0001299 | Val Loss: 0.0000935 | LR: 0.000069
+2025-08-08 18:33:28,678 - INFO - Epoch 585/1000 | Train Loss: 0.0001287 | Val Loss: 0.0000947 | LR: 0.000071
+2025-08-08 18:35:24,106 - INFO - Epoch 586/1000 | Train Loss: 0.0001272 | Val Loss: 0.0000941 | LR: 0.000072
+2025-08-08 18:37:19,556 - INFO - Epoch 587/1000 | Train Loss: 0.0001265 | Val Loss: 0.0000938 | LR: 0.000074
+2025-08-08 18:39:15,053 - INFO - Epoch 588/1000 | Train Loss: 0.0001263 | Val Loss: 0.0000940 | LR: 0.000075
+2025-08-08 18:41:10,598 - INFO - Epoch 589/1000 | Train Loss: 0.0001262 | Val Loss: 0.0000940 | LR: 0.000077
+2025-08-08 18:43:05,997 - INFO - Epoch 590/1000 | Train Loss: 0.0001287 | Val Loss: 0.0000943 | LR: 0.000079
+2025-08-08 18:45:01,385 - INFO - Epoch 591/1000 | Train Loss: 0.0001265 | Val Loss: 0.0000944 | LR: 0.000080
+2025-08-08 18:46:56,973 - INFO - Epoch 592/1000 | Train Loss: 0.0001262 | Val Loss: 0.0000941 | LR: 0.000082
+2025-08-08 18:48:52,427 - INFO - Epoch 593/1000 | Train Loss: 0.0001271 | Val Loss: 0.0000940 | LR: 0.000084
+2025-08-08 18:50:47,849 - INFO - Epoch 594/1000 | Train Loss: 0.0001265 | Val Loss: 0.0000941 | LR: 0.000086
+2025-08-08 18:52:43,281 - INFO - Epoch 595/1000 | Train Loss: 0.0001290 | Val Loss: 0.0000944 | LR: 0.000087
+2025-08-08 18:54:38,740 - INFO - Epoch 596/1000 | Train Loss: 0.0001263 | Val Loss: 0.0000938 | LR: 0.000089
+2025-08-08 18:56:34,200 - INFO - Epoch 597/1000 | Train Loss: 0.0001260 | Val Loss: 0.0000940 | LR: 0.000091
+2025-08-08 18:58:29,728 - INFO - Epoch 598/1000 | Train Loss: 0.0001246 | Val Loss: 0.0000941 | LR: 0.000093
+2025-08-08 19:00:25,184 - INFO - Epoch 599/1000 | Train Loss: 0.0001285 | Val Loss: 0.0000943 | LR: 0.000095
+2025-08-08 19:02:20,776 - INFO - Epoch 600/1000 | Train Loss: 0.0001270 | Val Loss: 0.0000944 | LR: 0.000096
+2025-08-08 19:02:21,485 - INFO - Saved periodic checkpoint at epoch 600 to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_epoch_600.pth
+2025-08-08 19:04:16,878 - INFO - Epoch 601/1000 | Train Loss: 0.0001217 | Val Loss: 0.0000944 | LR: 0.000098
+2025-08-08 19:06:12,375 - INFO - Epoch 602/1000 | Train Loss: 0.0001287 | Val Loss: 0.0000945 | LR: 0.000100
+2025-08-08 19:08:08,032 - INFO - Epoch 603/1000 | Train Loss: 0.0001248 | Val Loss: 0.0000940 | LR: 0.000102
+2025-08-08 19:10:03,502 - INFO - Epoch 604/1000 | Train Loss: 0.0001280 | Val Loss: 0.0000945 | LR: 0.000104
+2025-08-08 19:11:58,959 - INFO - Epoch 605/1000 | Train Loss: 0.0001286 | Val Loss: 0.0000949 | LR: 0.000106
+2025-08-08 19:13:54,378 - INFO - Epoch 606/1000 | Train Loss: 0.0001267 | Val Loss: 0.0000942 | LR: 0.000108
+2025-08-08 19:15:49,868 - INFO - Epoch 607/1000 | Train Loss: 0.0001274 | Val Loss: 0.0000944 | LR: 0.000110
+2025-08-08 19:17:45,313 - INFO - Epoch 608/1000 | Train Loss: 0.0001293 | Val Loss: 0.0000941 | LR: 0.000112
+2025-08-08 19:19:40,990 - INFO - Epoch 609/1000 | Train Loss: 0.0001273 | Val Loss: 0.0000950 | LR: 0.000114
+2025-08-08 19:21:36,617 - INFO - Epoch 610/1000 | Train Loss: 0.0001299 | Val Loss: 0.0000950 | LR: 0.000116
+2025-08-08 19:23:32,083 - INFO - Epoch 611/1000 | Train Loss: 0.0001275 | Val Loss: 0.0000945 | LR: 0.000118
+2025-08-08 19:25:27,807 - INFO - Epoch 612/1000 | Train Loss: 0.0001285 | Val Loss: 0.0000959 | LR: 0.000120
+2025-08-08 19:27:23,239 - INFO - Epoch 613/1000 | Train Loss: 0.0001273 | Val Loss: 0.0000953 | LR: 0.000122
+2025-08-08 19:29:18,715 - INFO - Epoch 614/1000 | Train Loss: 0.0001274 | Val Loss: 0.0000950 | LR: 0.000124
+2025-08-08 19:31:14,180 - INFO - Epoch 615/1000 | Train Loss: 0.0001274 | Val Loss: 0.0000949 | LR: 0.000126
+2025-08-08 19:33:09,663 - INFO - Epoch 616/1000 | Train Loss: 0.0001296 | Val Loss: 0.0000957 | LR: 0.000128
+2025-08-08 19:35:05,127 - INFO - Epoch 617/1000 | Train Loss: 0.0001293 | Val Loss: 0.0000950 | LR: 0.000130
+2025-08-08 19:37:00,614 - INFO - Epoch 618/1000 | Train Loss: 0.0001310 | Val Loss: 0.0000948 | LR: 0.000132
+2025-08-08 19:38:56,046 - INFO - Epoch 619/1000 | Train Loss: 0.0001279 | Val Loss: 0.0000947 | LR: 0.000134
+2025-08-08 19:40:51,495 - INFO - Epoch 620/1000 | Train Loss: 0.0001298 | Val Loss: 0.0000952 | LR: 0.000136
+2025-08-08 19:42:46,936 - INFO - Epoch 621/1000 | Train Loss: 0.0001269 | Val Loss: 0.0000952 | LR: 0.000139
+2025-08-08 19:44:42,613 - INFO - Epoch 622/1000 | Train Loss: 0.0001281 | Val Loss: 0.0000945 | LR: 0.000141
+2025-08-08 19:46:38,049 - INFO - Epoch 623/1000 | Train Loss: 0.0001290 | Val Loss: 0.0000949 | LR: 0.000143
+2025-08-08 19:48:33,507 - INFO - Epoch 624/1000 | Train Loss: 0.0001255 | Val Loss: 0.0000948 | LR: 0.000145
+2025-08-08 19:50:28,934 - INFO - Epoch 625/1000 | Train Loss: 0.0001265 | Val Loss: 0.0000959 | LR: 0.000147
+2025-08-08 19:52:24,410 - INFO - Epoch 626/1000 | Train Loss: 0.0001264 | Val Loss: 0.0000961 | LR: 0.000150
+2025-08-08 19:54:19,937 - INFO - Epoch 627/1000 | Train Loss: 0.0001279 | Val Loss: 0.0000955 | LR: 0.000152
+2025-08-08 19:56:15,328 - INFO - Epoch 628/1000 | Train Loss: 0.0001283 | Val Loss: 0.0000958 | LR: 0.000154
+2025-08-08 19:58:10,726 - INFO - Epoch 629/1000 | Train Loss: 0.0001299 | Val Loss: 0.0000954 | LR: 0.000156
+2025-08-08 20:00:06,210 - INFO - Epoch 630/1000 | Train Loss: 0.0001253 | Val Loss: 0.0000948 | LR: 0.000159
+2025-08-08 20:02:01,629 - INFO - Epoch 631/1000 | Train Loss: 0.0001293 | Val Loss: 0.0000958 | LR: 0.000161
+2025-08-08 20:03:57,133 - INFO - Epoch 632/1000 | Train Loss: 0.0001276 | Val Loss: 0.0000959 | LR: 0.000163
+2025-08-08 20:05:52,533 - INFO - Epoch 633/1000 | Train Loss: 0.0001310 | Val Loss: 0.0000952 | LR: 0.000165
+2025-08-08 20:07:47,992 - INFO - Epoch 634/1000 | Train Loss: 0.0001300 | Val Loss: 0.0000955 | LR: 0.000168
+2025-08-08 20:09:43,447 - INFO - Epoch 635/1000 | Train Loss: 0.0001278 | Val Loss: 0.0000954 | LR: 0.000170
+2025-08-08 20:11:39,109 - INFO - Epoch 636/1000 | Train Loss: 0.0001279 | Val Loss: 0.0000961 | LR: 0.000173
+2025-08-08 20:13:34,596 - INFO - Epoch 637/1000 | Train Loss: 0.0001292 | Val Loss: 0.0000954 | LR: 0.000175
+2025-08-08 20:15:30,081 - INFO - Epoch 638/1000 | Train Loss: 0.0001326 | Val Loss: 0.0000961 | LR: 0.000177
+2025-08-08 20:17:25,735 - INFO - Epoch 639/1000 | Train Loss: 0.0001288 | Val Loss: 0.0000953 | LR: 0.000180
+2025-08-08 20:19:21,158 - INFO - Epoch 640/1000 | Train Loss: 0.0001309 | Val Loss: 0.0000960 | LR: 0.000182
+2025-08-08 20:21:16,589 - INFO - Epoch 641/1000 | Train Loss: 0.0001296 | Val Loss: 0.0000955 | LR: 0.000185
+2025-08-08 20:23:12,055 - INFO - Epoch 642/1000 | Train Loss: 0.0001294 | Val Loss: 0.0000955 | LR: 0.000187
+2025-08-08 20:25:07,551 - INFO - Epoch 643/1000 | Train Loss: 0.0001323 | Val Loss: 0.0000978 | LR: 0.000189
+2025-08-08 20:27:03,049 - INFO - Epoch 644/1000 | Train Loss: 0.0001318 | Val Loss: 0.0001018 | LR: 0.000192
+2025-08-08 20:28:58,511 - INFO - Epoch 645/1000 | Train Loss: 0.0001295 | Val Loss: 0.0000968 | LR: 0.000194
+2025-08-08 20:30:53,939 - INFO - Epoch 646/1000 | Train Loss: 0.0001321 | Val Loss: 0.0000972 | LR: 0.000197
+2025-08-08 20:32:49,411 - INFO - Epoch 647/1000 | Train Loss: 0.0001314 | Val Loss: 0.0000972 | LR: 0.000199
+2025-08-08 20:34:44,916 - INFO - Epoch 648/1000 | Train Loss: 0.0001281 | Val Loss: 0.0000966 | LR: 0.000202
+2025-08-08 20:36:40,340 - INFO - Epoch 649/1000 | Train Loss: 0.0001293 | Val Loss: 0.0000969 | LR: 0.000204
+2025-08-08 20:38:35,999 - INFO - Epoch 650/1000 | Train Loss: 0.0001293 | Val Loss: 0.0000964 | LR: 0.000207
+2025-08-08 20:40:31,434 - INFO - Epoch 651/1000 | Train Loss: 0.0001282 | Val Loss: 0.0000971 | LR: 0.000209
+2025-08-08 20:42:26,874 - INFO - Epoch 652/1000 | Train Loss: 0.0001249 | Val Loss: 0.0000964 | LR: 0.000212
+2025-08-08 20:44:22,304 - INFO - Epoch 653/1000 | Train Loss: 0.0001302 | Val Loss: 0.0000965 | LR: 0.000215
+2025-08-08 20:46:17,856 - INFO - Epoch 654/1000 | Train Loss: 0.0001327 | Val Loss: 0.0000969 | LR: 0.000217
+2025-08-08 20:48:13,325 - INFO - Epoch 655/1000 | Train Loss: 0.0001258 | Val Loss: 0.0000973 | LR: 0.000220
+2025-08-08 20:50:08,816 - INFO - Epoch 656/1000 | Train Loss: 0.0001287 | Val Loss: 0.0000967 | LR: 0.000222
+2025-08-08 20:52:04,235 - INFO - Epoch 657/1000 | Train Loss: 0.0001303 | Val Loss: 0.0000977 | LR: 0.000225
+2025-08-08 20:53:59,655 - INFO - Epoch 658/1000 | Train Loss: 0.0001336 | Val Loss: 0.0000970 | LR: 0.000228
+2025-08-08 20:55:55,087 - INFO - Epoch 659/1000 | Train Loss: 0.0001303 | Val Loss: 0.0000978 | LR: 0.000230
+2025-08-08 20:57:50,603 - INFO - Epoch 660/1000 | Train Loss: 0.0001299 | Val Loss: 0.0000975 | LR: 0.000233
+2025-08-08 20:59:46,046 - INFO - Epoch 661/1000 | Train Loss: 0.0001321 | Val Loss: 0.0000973 | LR: 0.000236
+2025-08-08 21:01:41,544 - INFO - Epoch 662/1000 | Train Loss: 0.0001337 | Val Loss: 0.0000985 | LR: 0.000238
+2025-08-08 21:03:36,982 - INFO - Epoch 663/1000 | Train Loss: 0.0001306 | Val Loss: 0.0000981 | LR: 0.000241
+2025-08-08 21:05:32,437 - INFO - Epoch 664/1000 | Train Loss: 0.0001261 | Val Loss: 0.0000958 | LR: 0.000244
+2025-08-08 21:07:27,841 - INFO - Epoch 665/1000 | Train Loss: 0.0001319 | Val Loss: 0.0000980 | LR: 0.000246
+2025-08-08 21:09:23,308 - INFO - Epoch 666/1000 | Train Loss: 0.0001292 | Val Loss: 0.0000969 | LR: 0.000249
+2025-08-08 21:11:18,782 - INFO - Epoch 667/1000 | Train Loss: 0.0001312 | Val Loss: 0.0000970 | LR: 0.000252
+2025-08-08 21:13:14,232 - INFO - Epoch 668/1000 | Train Loss: 0.0001309 | Val Loss: 0.0000957 | LR: 0.000254
+2025-08-08 21:15:09,652 - INFO - Epoch 669/1000 | Train Loss: 0.0001272 | Val Loss: 0.0000965 | LR: 0.000257
+2025-08-08 21:17:05,150 - INFO - Epoch 670/1000 | Train Loss: 0.0001278 | Val Loss: 0.0000970 | LR: 0.000260
+2025-08-08 21:19:00,585 - INFO - Epoch 671/1000 | Train Loss: 0.0001311 | Val Loss: 0.0000975 | LR: 0.000263
+2025-08-08 21:20:56,028 - INFO - Epoch 672/1000 | Train Loss: 0.0001259 | Val Loss: 0.0000964 | LR: 0.000265
+2025-08-08 21:22:51,450 - INFO - Epoch 673/1000 | Train Loss: 0.0001335 | Val Loss: 0.0000987 | LR: 0.000268
+2025-08-08 21:24:47,057 - INFO - Epoch 674/1000 | Train Loss: 0.0001295 | Val Loss: 0.0000973 | LR: 0.000271
+2025-08-08 21:26:42,524 - INFO - Epoch 675/1000 | Train Loss: 0.0001303 | Val Loss: 0.0000983 | LR: 0.000274
+2025-08-08 21:28:37,940 - INFO - Epoch 676/1000 | Train Loss: 0.0001333 | Val Loss: 0.0000977 | LR: 0.000277
+2025-08-08 21:30:33,389 - INFO - Epoch 677/1000 | Train Loss: 0.0001313 | Val Loss: 0.0000971 | LR: 0.000279
+2025-08-08 21:32:28,887 - INFO - Epoch 678/1000 | Train Loss: 0.0001302 | Val Loss: 0.0000980 | LR: 0.000282
+2025-08-08 21:34:24,347 - INFO - Epoch 679/1000 | Train Loss: 0.0001277 | Val Loss: 0.0000982 | LR: 0.000285
+2025-08-08 21:36:19,799 - INFO - Epoch 680/1000 | Train Loss: 0.0001302 | Val Loss: 0.0000979 | LR: 0.000288
+2025-08-08 21:38:15,363 - INFO - Epoch 681/1000 | Train Loss: 0.0001297 | Val Loss: 0.0000979 | LR: 0.000291
+2025-08-08 21:40:10,875 - INFO - Epoch 682/1000 | Train Loss: 0.0001286 | Val Loss: 0.0000963 | LR: 0.000294
+2025-08-08 21:42:06,330 - INFO - Epoch 683/1000 | Train Loss: 0.0001321 | Val Loss: 0.0000969 | LR: 0.000296
+2025-08-08 21:44:01,799 - INFO - Epoch 684/1000 | Train Loss: 0.0001329 | Val Loss: 0.0000981 | LR: 0.000299
+2025-08-08 21:45:57,250 - INFO - Epoch 685/1000 | Train Loss: 0.0001302 | Val Loss: 0.0000977 | LR: 0.000302
+2025-08-08 21:47:52,693 - INFO - Epoch 686/1000 | Train Loss: 0.0001339 | Val Loss: 0.0000971 | LR: 0.000305
+2025-08-08 21:49:48,178 - INFO - Epoch 687/1000 | Train Loss: 0.0001323 | Val Loss: 0.0001000 | LR: 0.000308
+2025-08-08 21:51:43,684 - INFO - Epoch 688/1000 | Train Loss: 0.0001282 | Val Loss: 0.0000976 | LR: 0.000311
+2025-08-08 21:53:39,189 - INFO - Epoch 689/1000 | Train Loss: 0.0001306 | Val Loss: 0.0000982 | LR: 0.000314
+2025-08-08 21:55:34,640 - INFO - Epoch 690/1000 | Train Loss: 0.0001316 | Val Loss: 0.0000990 | LR: 0.000317
+2025-08-08 21:57:30,069 - INFO - Epoch 691/1000 | Train Loss: 0.0001317 | Val Loss: 0.0000980 | LR: 0.000320
+2025-08-08 21:59:25,797 - INFO - Epoch 692/1000 | Train Loss: 0.0001349 | Val Loss: 0.0000984 | LR: 0.000322
+2025-08-08 22:01:21,462 - INFO - Epoch 693/1000 | Train Loss: 0.0001330 | Val Loss: 0.0000988 | LR: 0.000325
+2025-08-08 22:03:16,891 - INFO - Epoch 694/1000 | Train Loss: 0.0001329 | Val Loss: 0.0000992 | LR: 0.000328
+2025-08-08 22:05:12,328 - INFO - Epoch 695/1000 | Train Loss: 0.0001320 | Val Loss: 0.0000992 | LR: 0.000331
+2025-08-08 22:07:07,786 - INFO - Epoch 696/1000 | Train Loss: 0.0001326 | Val Loss: 0.0000992 | LR: 0.000334
+2025-08-08 22:09:03,235 - INFO - Epoch 697/1000 | Train Loss: 0.0001325 | Val Loss: 0.0000990 | LR: 0.000337
+2025-08-08 22:10:58,673 - INFO - Epoch 698/1000 | Train Loss: 0.0001327 | Val Loss: 0.0001000 | LR: 0.000340
+2025-08-08 22:12:54,119 - INFO - Epoch 699/1000 | Train Loss: 0.0001360 | Val Loss: 0.0001011 | LR: 0.000343
+2025-08-08 22:14:49,590 - INFO - Epoch 700/1000 | Train Loss: 0.0001292 | Val Loss: 0.0000981 | LR: 0.000346
+2025-08-08 22:14:50,324 - INFO - Saved periodic checkpoint at epoch 700 to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_epoch_700.pth
+2025-08-08 22:16:45,696 - INFO - Epoch 701/1000 | Train Loss: 0.0001301 | Val Loss: 0.0000976 | LR: 0.000349
+2025-08-08 22:18:41,121 - INFO - Epoch 702/1000 | Train Loss: 0.0001362 | Val Loss: 0.0000992 | LR: 0.000352
+2025-08-08 22:20:36,591 - INFO - Epoch 703/1000 | Train Loss: 0.0001355 | Val Loss: 0.0000991 | LR: 0.000355
+2025-08-08 22:22:32,069 - INFO - Epoch 704/1000 | Train Loss: 0.0001328 | Val Loss: 0.0001004 | LR: 0.000358
+2025-08-08 22:24:27,568 - INFO - Epoch 705/1000 | Train Loss: 0.0001306 | Val Loss: 0.0001015 | LR: 0.000361
+2025-08-08 22:26:23,042 - INFO - Epoch 706/1000 | Train Loss: 0.0001356 | Val Loss: 0.0000999 | LR: 0.000364
+2025-08-08 22:28:18,564 - INFO - Epoch 707/1000 | Train Loss: 0.0001314 | Val Loss: 0.0000989 | LR: 0.000367
+2025-08-08 22:30:13,996 - INFO - Epoch 708/1000 | Train Loss: 0.0001274 | Val Loss: 0.0000996 | LR: 0.000370
+2025-08-08 22:32:09,414 - INFO - Epoch 709/1000 | Train Loss: 0.0001296 | Val Loss: 0.0000993 | LR: 0.000373
+2025-08-08 22:34:04,855 - INFO - Epoch 710/1000 | Train Loss: 0.0001323 | Val Loss: 0.0001005 | LR: 0.000376
+2025-08-08 22:36:00,344 - INFO - Epoch 711/1000 | Train Loss: 0.0001326 | Val Loss: 0.0001012 | LR: 0.000379
+2025-08-08 22:37:55,786 - INFO - Epoch 712/1000 | Train Loss: 0.0001347 | Val Loss: 0.0001008 | LR: 0.000382
+2025-08-08 22:39:51,262 - INFO - Epoch 713/1000 | Train Loss: 0.0001315 | Val Loss: 0.0000982 | LR: 0.000385
+2025-08-08 22:41:46,741 - INFO - Epoch 714/1000 | Train Loss: 0.0001308 | Val Loss: 0.0000981 | LR: 0.000388
+2025-08-08 22:43:42,193 - INFO - Epoch 715/1000 | Train Loss: 0.0001313 | Val Loss: 0.0000999 | LR: 0.000392
+2025-08-08 22:45:37,749 - INFO - Epoch 716/1000 | Train Loss: 0.0001324 | Val Loss: 0.0001021 | LR: 0.000395
+2025-08-08 22:47:33,234 - INFO - Epoch 717/1000 | Train Loss: 0.0001256 | Val Loss: 0.0000990 | LR: 0.000398
+2025-08-08 22:49:28,689 - INFO - Epoch 718/1000 | Train Loss: 0.0001302 | Val Loss: 0.0000977 | LR: 0.000401
+2025-08-08 22:51:24,140 - INFO - Epoch 719/1000 | Train Loss: 0.0001354 | Val Loss: 0.0001021 | LR: 0.000404
+2025-08-08 22:53:19,598 - INFO - Epoch 720/1000 | Train Loss: 0.0001332 | Val Loss: 0.0001003 | LR: 0.000407
+2025-08-08 22:55:15,017 - INFO - Epoch 721/1000 | Train Loss: 0.0001302 | Val Loss: 0.0000985 | LR: 0.000410
+2025-08-08 22:57:10,440 - INFO - Epoch 722/1000 | Train Loss: 0.0001310 | Val Loss: 0.0001028 | LR: 0.000413
+2025-08-08 22:59:05,876 - INFO - Epoch 723/1000 | Train Loss: 0.0001350 | Val Loss: 0.0001020 | LR: 0.000416
+2025-08-08 23:01:01,358 - INFO - Epoch 724/1000 | Train Loss: 0.0001384 | Val Loss: 0.0001040 | LR: 0.000419
+2025-08-08 23:02:56,767 - INFO - Epoch 725/1000 | Train Loss: 0.0001273 | Val Loss: 0.0001013 | LR: 0.000422
+2025-08-08 23:04:52,207 - INFO - Epoch 726/1000 | Train Loss: 0.0001342 | Val Loss: 0.0001016 | LR: 0.000425
+2025-08-08 23:06:47,626 - INFO - Epoch 727/1000 | Train Loss: 0.0001303 | Val Loss: 0.0000998 | LR: 0.000429
+2025-08-08 23:08:43,216 - INFO - Epoch 728/1000 | Train Loss: 0.0001373 | Val Loss: 0.0001019 | LR: 0.000432
+2025-08-08 23:10:38,693 - INFO - Epoch 729/1000 | Train Loss: 0.0001335 | Val Loss: 0.0001027 | LR: 0.000435
+2025-08-08 23:12:34,098 - INFO - Epoch 730/1000 | Train Loss: 0.0001300 | Val Loss: 0.0001024 | LR: 0.000438
+2025-08-08 23:14:29,519 - INFO - Epoch 731/1000 | Train Loss: 0.0001328 | Val Loss: 0.0001007 | LR: 0.000441
+2025-08-08 23:16:25,007 - INFO - Epoch 732/1000 | Train Loss: 0.0001317 | Val Loss: 0.0001013 | LR: 0.000444
+2025-08-08 23:18:20,385 - INFO - Epoch 733/1000 | Train Loss: 0.0001324 | Val Loss: 0.0001040 | LR: 0.000447
+2025-08-08 23:20:15,868 - INFO - Epoch 734/1000 | Train Loss: 0.0001352 | Val Loss: 0.0001007 | LR: 0.000450
+2025-08-08 23:22:11,319 - INFO - Epoch 735/1000 | Train Loss: 0.0001371 | Val Loss: 0.0001010 | LR: 0.000453
+2025-08-08 23:24:06,735 - INFO - Epoch 736/1000 | Train Loss: 0.0001329 | Val Loss: 0.0001010 | LR: 0.000457
+2025-08-08 23:26:02,334 - INFO - Epoch 737/1000 | Train Loss: 0.0001314 | Val Loss: 0.0001038 | LR: 0.000460
+2025-08-08 23:27:57,824 - INFO - Epoch 738/1000 | Train Loss: 0.0001378 | Val Loss: 0.0001030 | LR: 0.000463
+2025-08-08 23:29:53,298 - INFO - Epoch 739/1000 | Train Loss: 0.0001311 | Val Loss: 0.0000999 | LR: 0.000466
+2025-08-08 23:31:48,726 - INFO - Epoch 740/1000 | Train Loss: 0.0001353 | Val Loss: 0.0001017 | LR: 0.000469
+2025-08-08 23:33:44,207 - INFO - Epoch 741/1000 | Train Loss: 0.0001342 | Val Loss: 0.0001029 | LR: 0.000472
+2025-08-08 23:35:39,651 - INFO - Epoch 742/1000 | Train Loss: 0.0001265 | Val Loss: 0.0000992 | LR: 0.000475
+2025-08-08 23:37:35,085 - INFO - Epoch 743/1000 | Train Loss: 0.0001325 | Val Loss: 0.0001038 | LR: 0.000479
+2025-08-08 23:39:30,543 - INFO - Epoch 744/1000 | Train Loss: 0.0001383 | Val Loss: 0.0001029 | LR: 0.000482
+2025-08-08 23:41:25,953 - INFO - Epoch 745/1000 | Train Loss: 0.0001322 | Val Loss: 0.0001012 | LR: 0.000485
+2025-08-08 23:43:21,445 - INFO - Epoch 746/1000 | Train Loss: 0.0001346 | Val Loss: 0.0001000 | LR: 0.000488
+2025-08-08 23:45:16,980 - INFO - Epoch 747/1000 | Train Loss: 0.0001325 | Val Loss: 0.0001009 | LR: 0.000491
+2025-08-08 23:47:12,627 - INFO - Epoch 748/1000 | Train Loss: 0.0001422 | Val Loss: 0.0001083 | LR: 0.000494
+2025-08-08 23:49:08,317 - INFO - Epoch 749/1000 | Train Loss: 0.0001308 | Val Loss: 0.0001000 | LR: 0.000497
+2025-08-08 23:51:03,753 - INFO - Epoch 750/1000 | Train Loss: 0.0001344 | Val Loss: 0.0001035 | LR: 0.000501
+2025-08-08 23:52:59,187 - INFO - Epoch 751/1000 | Train Loss: 0.0001319 | Val Loss: 0.0001011 | LR: 0.000504
+2025-08-08 23:54:54,652 - INFO - Epoch 752/1000 | Train Loss: 0.0001335 | Val Loss: 0.0001041 | LR: 0.000507
+2025-08-08 23:56:50,052 - INFO - Epoch 753/1000 | Train Loss: 0.0001342 | Val Loss: 0.0001019 | LR: 0.000510
+2025-08-08 23:58:45,591 - INFO - Epoch 754/1000 | Train Loss: 0.0001367 | Val Loss: 0.0001038 | LR: 0.000513
+2025-08-09 00:00:41,170 - INFO - Epoch 755/1000 | Train Loss: 0.0001319 | Val Loss: 0.0001029 | LR: 0.000516
+2025-08-09 00:02:36,827 - INFO - Epoch 756/1000 | Train Loss: 0.0001338 | Val Loss: 0.0001013 | LR: 0.000519
+2025-08-09 00:04:32,224 - INFO - Epoch 757/1000 | Train Loss: 0.0001332 | Val Loss: 0.0001036 | LR: 0.000522
+2025-08-09 00:06:27,685 - INFO - Epoch 758/1000 | Train Loss: 0.0001326 | Val Loss: 0.0001041 | LR: 0.000526
+2025-08-09 00:08:23,062 - INFO - Epoch 759/1000 | Train Loss: 0.0001319 | Val Loss: 0.0001016 | LR: 0.000529
+2025-08-09 00:10:18,451 - INFO - Epoch 760/1000 | Train Loss: 0.0001322 | Val Loss: 0.0001032 | LR: 0.000532
+2025-08-09 00:12:13,877 - INFO - Epoch 761/1000 | Train Loss: 0.0001458 | Val Loss: 0.0001046 | LR: 0.000535
+2025-08-09 00:14:09,509 - INFO - Epoch 762/1000 | Train Loss: 0.0001320 | Val Loss: 0.0001028 | LR: 0.000538
+2025-08-09 00:16:04,931 - INFO - Epoch 763/1000 | Train Loss: 0.0001345 | Val Loss: 0.0001036 | LR: 0.000541
+2025-08-09 00:18:00,354 - INFO - Epoch 764/1000 | Train Loss: 0.0001390 | Val Loss: 0.0001061 | LR: 0.000544
+2025-08-09 00:19:55,793 - INFO - Epoch 765/1000 | Train Loss: 0.0001327 | Val Loss: 0.0001045 | LR: 0.000548
+2025-08-09 00:21:51,352 - INFO - Epoch 766/1000 | Train Loss: 0.0001324 | Val Loss: 0.0001020 | LR: 0.000551
+2025-08-09 00:23:46,728 - INFO - Epoch 767/1000 | Train Loss: 0.0001390 | Val Loss: 0.0001151 | LR: 0.000554
+2025-08-09 00:25:42,151 - INFO - Epoch 768/1000 | Train Loss: 0.0001356 | Val Loss: 0.0001037 | LR: 0.000557
+2025-08-09 00:27:37,548 - INFO - Epoch 769/1000 | Train Loss: 0.0001396 | Val Loss: 0.0001061 | LR: 0.000560
+2025-08-09 00:29:32,965 - INFO - Epoch 770/1000 | Train Loss: 0.0001341 | Val Loss: 0.0001034 | LR: 0.000563
+2025-08-09 00:31:28,389 - INFO - Epoch 771/1000 | Train Loss: 0.0001394 | Val Loss: 0.0001043 | LR: 0.000566
+2025-08-09 00:33:23,853 - INFO - Epoch 772/1000 | Train Loss: 0.0001302 | Val Loss: 0.0001048 | LR: 0.000569
+2025-08-09 00:35:19,252 - INFO - Epoch 773/1000 | Train Loss: 0.0001356 | Val Loss: 0.0001034 | LR: 0.000572
+2025-08-09 00:37:14,699 - INFO - Epoch 774/1000 | Train Loss: 0.0001376 | Val Loss: 0.0001061 | LR: 0.000576
+2025-08-09 00:39:10,113 - INFO - Epoch 775/1000 | Train Loss: 0.0001363 | Val Loss: 0.0001095 | LR: 0.000579
+2025-08-09 00:41:05,538 - INFO - Epoch 776/1000 | Train Loss: 0.0001330 | Val Loss: 0.0001055 | LR: 0.000582
+2025-08-09 00:43:00,967 - INFO - Epoch 777/1000 | Train Loss: 0.0001380 | Val Loss: 0.0001044 | LR: 0.000585
+2025-08-09 00:44:56,423 - INFO - Epoch 778/1000 | Train Loss: 0.0001322 | Val Loss: 0.0001052 | LR: 0.000588
+2025-08-09 00:46:51,877 - INFO - Epoch 779/1000 | Train Loss: 0.0001335 | Val Loss: 0.0001064 | LR: 0.000591
+2025-08-09 00:48:47,356 - INFO - Epoch 780/1000 | Train Loss: 0.0001389 | Val Loss: 0.0001034 | LR: 0.000594
+2025-08-09 00:50:42,836 - INFO - Epoch 781/1000 | Train Loss: 0.0001326 | Val Loss: 0.0001039 | LR: 0.000597
+2025-08-09 00:52:38,298 - INFO - Epoch 782/1000 | Train Loss: 0.0001342 | Val Loss: 0.0001045 | LR: 0.000600
+2025-08-09 00:54:33,724 - INFO - Epoch 783/1000 | Train Loss: 0.0001344 | Val Loss: 0.0001041 | LR: 0.000603
+2025-08-09 00:56:29,122 - INFO - Epoch 784/1000 | Train Loss: 0.0001340 | Val Loss: 0.0001042 | LR: 0.000606
+2025-08-09 00:58:24,647 - INFO - Epoch 785/1000 | Train Loss: 0.0001301 | Val Loss: 0.0001038 | LR: 0.000609
+2025-08-09 01:00:20,074 - INFO - Epoch 786/1000 | Train Loss: 0.0001357 | Val Loss: 0.0001120 | LR: 0.000613
+2025-08-09 01:02:15,693 - INFO - Epoch 787/1000 | Train Loss: 0.0001385 | Val Loss: 0.0001073 | LR: 0.000616
+2025-08-09 01:04:11,138 - INFO - Epoch 788/1000 | Train Loss: 0.0001332 | Val Loss: 0.0001073 | LR: 0.000619
+2025-08-09 01:06:06,574 - INFO - Epoch 789/1000 | Train Loss: 0.0001355 | Val Loss: 0.0001054 | LR: 0.000622
+2025-08-09 01:08:02,074 - INFO - Epoch 790/1000 | Train Loss: 0.0001350 | Val Loss: 0.0001067 | LR: 0.000625
+2025-08-09 01:09:57,488 - INFO - Epoch 791/1000 | Train Loss: 0.0001411 | Val Loss: 0.0001058 | LR: 0.000628
+2025-08-09 01:11:53,175 - INFO - Epoch 792/1000 | Train Loss: 0.0001338 | Val Loss: 0.0001039 | LR: 0.000631
+2025-08-09 01:13:48,642 - INFO - Epoch 793/1000 | Train Loss: 0.0001363 | Val Loss: 0.0001068 | LR: 0.000634
+2025-08-09 01:15:44,117 - INFO - Epoch 794/1000 | Train Loss: 0.0001297 | Val Loss: 0.0001032 | LR: 0.000637
+2025-08-09 01:17:39,800 - INFO - Epoch 795/1000 | Train Loss: 0.0001396 | Val Loss: 0.0001076 | LR: 0.000640
+2025-08-09 01:19:35,241 - INFO - Epoch 796/1000 | Train Loss: 0.0001330 | Val Loss: 0.0001050 | LR: 0.000643
+2025-08-09 01:21:30,837 - INFO - Epoch 797/1000 | Train Loss: 0.0001340 | Val Loss: 0.0001020 | LR: 0.000646
+2025-08-09 01:23:26,264 - INFO - Epoch 798/1000 | Train Loss: 0.0001328 | Val Loss: 0.0001043 | LR: 0.000649
+2025-08-09 01:25:21,702 - INFO - Epoch 799/1000 | Train Loss: 0.0001321 | Val Loss: 0.0001024 | LR: 0.000652
+2025-08-09 01:27:17,131 - INFO - Epoch 800/1000 | Train Loss: 0.0001329 | Val Loss: 0.0001060 | LR: 0.000655
+2025-08-09 01:27:17,878 - INFO - Saved periodic checkpoint at epoch 800 to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_epoch_800.pth
+2025-08-09 01:29:13,490 - INFO - Epoch 801/1000 | Train Loss: 0.0001298 | Val Loss: 0.0001044 | LR: 0.000658
+2025-08-09 01:31:08,984 - INFO - Epoch 802/1000 | Train Loss: 0.0001343 | Val Loss: 0.0001082 | LR: 0.000661
+2025-08-09 01:33:04,454 - INFO - Epoch 803/1000 | Train Loss: 0.0001370 | Val Loss: 0.0001070 | LR: 0.000664
+2025-08-09 01:34:59,971 - INFO - Epoch 804/1000 | Train Loss: 0.0001373 | Val Loss: 0.0001052 | LR: 0.000667
+2025-08-09 01:36:55,402 - INFO - Epoch 805/1000 | Train Loss: 0.0001269 | Val Loss: 0.0001031 | LR: 0.000670
+2025-08-09 01:38:50,845 - INFO - Epoch 806/1000 | Train Loss: 0.0001346 | Val Loss: 0.0001051 | LR: 0.000673
+2025-08-09 01:40:46,292 - INFO - Epoch 807/1000 | Train Loss: 0.0001368 | Val Loss: 0.0001045 | LR: 0.000676
+2025-08-09 01:42:41,765 - INFO - Epoch 808/1000 | Train Loss: 0.0001293 | Val Loss: 0.0001059 | LR: 0.000679
+2025-08-09 01:44:37,264 - INFO - Epoch 809/1000 | Train Loss: 0.0001341 | Val Loss: 0.0001055 | LR: 0.000681
+2025-08-09 01:46:32,685 - INFO - Epoch 810/1000 | Train Loss: 0.0001371 | Val Loss: 0.0001057 | LR: 0.000684
+2025-08-09 01:48:28,118 - INFO - Epoch 811/1000 | Train Loss: 0.0001318 | Val Loss: 0.0001050 | LR: 0.000687
+2025-08-09 01:50:23,609 - INFO - Epoch 812/1000 | Train Loss: 0.0001383 | Val Loss: 0.0001054 | LR: 0.000690
+2025-08-09 01:52:19,045 - INFO - Epoch 813/1000 | Train Loss: 0.0001302 | Val Loss: 0.0001056 | LR: 0.000693
+2025-08-09 01:54:14,523 - INFO - Epoch 814/1000 | Train Loss: 0.0001332 | Val Loss: 0.0001026 | LR: 0.000696
+2025-08-09 01:56:09,969 - INFO - Epoch 815/1000 | Train Loss: 0.0001366 | Val Loss: 0.0001097 | LR: 0.000699
+2025-08-09 01:58:05,407 - INFO - Epoch 816/1000 | Train Loss: 0.0001352 | Val Loss: 0.0001070 | LR: 0.000702
+2025-08-09 02:00:00,884 - INFO - Epoch 817/1000 | Train Loss: 0.0001382 | Val Loss: 0.0001073 | LR: 0.000705
+2025-08-09 02:01:56,328 - INFO - Epoch 818/1000 | Train Loss: 0.0001350 | Val Loss: 0.0001082 | LR: 0.000707
+2025-08-09 02:03:51,723 - INFO - Epoch 819/1000 | Train Loss: 0.0001323 | Val Loss: 0.0001008 | LR: 0.000710
+2025-08-09 02:05:47,158 - INFO - Epoch 820/1000 | Train Loss: 0.0001359 | Val Loss: 0.0001034 | LR: 0.000713
+2025-08-09 02:07:42,583 - INFO - Epoch 821/1000 | Train Loss: 0.0001437 | Val Loss: 0.0001036 | LR: 0.000716
+2025-08-09 02:09:38,094 - INFO - Epoch 822/1000 | Train Loss: 0.0001342 | Val Loss: 0.0001027 | LR: 0.000719
+2025-08-09 02:11:33,581 - INFO - Epoch 823/1000 | Train Loss: 0.0001321 | Val Loss: 0.0001095 | LR: 0.000722
+2025-08-09 02:13:29,122 - INFO - Epoch 824/1000 | Train Loss: 0.0001298 | Val Loss: 0.0001027 | LR: 0.000724
+2025-08-09 02:15:24,597 - INFO - Epoch 825/1000 | Train Loss: 0.0001329 | Val Loss: 0.0001035 | LR: 0.000727
+2025-08-09 02:17:20,243 - INFO - Epoch 826/1000 | Train Loss: 0.0001330 | Val Loss: 0.0001052 | LR: 0.000730
+2025-08-09 02:19:15,662 - INFO - Epoch 827/1000 | Train Loss: 0.0001333 | Val Loss: 0.0001073 | LR: 0.000733
+2025-08-09 02:21:11,110 - INFO - Epoch 828/1000 | Train Loss: 0.0001322 | Val Loss: 0.0001042 | LR: 0.000736
+2025-08-09 02:23:06,560 - INFO - Epoch 829/1000 | Train Loss: 0.0001339 | Val Loss: 0.0001009 | LR: 0.000738
+2025-08-09 02:25:02,000 - INFO - Epoch 830/1000 | Train Loss: 0.0001373 | Val Loss: 0.0001066 | LR: 0.000741
+2025-08-09 02:26:57,445 - INFO - Epoch 831/1000 | Train Loss: 0.0001346 | Val Loss: 0.0001025 | LR: 0.000744
+2025-08-09 02:28:53,075 - INFO - Epoch 832/1000 | Train Loss: 0.0001330 | Val Loss: 0.0001017 | LR: 0.000747
+2025-08-09 02:30:48,500 - INFO - Epoch 833/1000 | Train Loss: 0.0001309 | Val Loss: 0.0001047 | LR: 0.000749
+2025-08-09 02:32:44,031 - INFO - Epoch 834/1000 | Train Loss: 0.0001358 | Val Loss: 0.0001071 | LR: 0.000752
+2025-08-09 02:34:39,454 - INFO - Epoch 835/1000 | Train Loss: 0.0001342 | Val Loss: 0.0001062 | LR: 0.000755
+2025-08-09 02:36:34,853 - INFO - Epoch 836/1000 | Train Loss: 0.0001373 | Val Loss: 0.0001103 | LR: 0.000757
+2025-08-09 02:38:30,281 - INFO - Epoch 837/1000 | Train Loss: 0.0001314 | Val Loss: 0.0001029 | LR: 0.000760
+2025-08-09 02:40:25,970 - INFO - Epoch 838/1000 | Train Loss: 0.0001271 | Val Loss: 0.0001080 | LR: 0.000763
+2025-08-09 02:42:21,507 - INFO - Epoch 839/1000 | Train Loss: 0.0001325 | Val Loss: 0.0001063 | LR: 0.000765
+2025-08-09 02:44:16,938 - INFO - Epoch 840/1000 | Train Loss: 0.0001319 | Val Loss: 0.0001029 | LR: 0.000768
+2025-08-09 02:46:12,361 - INFO - Epoch 841/1000 | Train Loss: 0.0001326 | Val Loss: 0.0001064 | LR: 0.000771
+2025-08-09 02:48:07,790 - INFO - Epoch 842/1000 | Train Loss: 0.0001319 | Val Loss: 0.0001024 | LR: 0.000773
+2025-08-09 02:50:03,242 - INFO - Epoch 843/1000 | Train Loss: 0.0001342 | Val Loss: 0.0001067 | LR: 0.000776
+2025-08-09 02:51:58,733 - INFO - Epoch 844/1000 | Train Loss: 0.0001290 | Val Loss: 0.0001018 | LR: 0.000779
+2025-08-09 02:53:54,111 - INFO - Epoch 845/1000 | Train Loss: 0.0001320 | Val Loss: 0.0001012 | LR: 0.000781
+2025-08-09 02:55:49,634 - INFO - Epoch 846/1000 | Train Loss: 0.0001309 | Val Loss: 0.0001060 | LR: 0.000784
+2025-08-09 02:57:45,071 - INFO - Epoch 847/1000 | Train Loss: 0.0001321 | Val Loss: 0.0001055 | LR: 0.000786
+2025-08-09 02:59:40,656 - INFO - Epoch 848/1000 | Train Loss: 0.0001357 | Val Loss: 0.0001093 | LR: 0.000789
+2025-08-09 03:01:36,138 - INFO - Epoch 849/1000 | Train Loss: 0.0001343 | Val Loss: 0.0001141 | LR: 0.000792
+2025-08-09 03:03:31,569 - INFO - Epoch 850/1000 | Train Loss: 0.0001325 | Val Loss: 0.0001033 | LR: 0.000794
+2025-08-09 03:05:27,084 - INFO - Epoch 851/1000 | Train Loss: 0.0001345 | Val Loss: 0.0001028 | LR: 0.000797
+2025-08-09 03:07:22,562 - INFO - Epoch 852/1000 | Train Loss: 0.0001288 | Val Loss: 0.0001036 | LR: 0.000799
+2025-08-09 03:09:17,992 - INFO - Epoch 853/1000 | Train Loss: 0.0001285 | Val Loss: 0.0001032 | LR: 0.000802
+2025-08-09 03:11:13,465 - INFO - Epoch 854/1000 | Train Loss: 0.0001312 | Val Loss: 0.0001029 | LR: 0.000804
+2025-08-09 03:13:08,898 - INFO - Epoch 855/1000 | Train Loss: 0.0001330 | Val Loss: 0.0001045 | LR: 0.000807
+2025-08-09 03:15:04,319 - INFO - Epoch 856/1000 | Train Loss: 0.0001316 | Val Loss: 0.0001057 | LR: 0.000809
+2025-08-09 03:16:59,755 - INFO - Epoch 857/1000 | Train Loss: 0.0001343 | Val Loss: 0.0001093 | LR: 0.000812
+2025-08-09 03:18:55,182 - INFO - Epoch 858/1000 | Train Loss: 0.0001351 | Val Loss: 0.0001095 | LR: 0.000814
+2025-08-09 03:20:50,744 - INFO - Epoch 859/1000 | Train Loss: 0.0001310 | Val Loss: 0.0001026 | LR: 0.000816
+2025-08-09 03:22:46,214 - INFO - Epoch 860/1000 | Train Loss: 0.0001281 | Val Loss: 0.0001005 | LR: 0.000819
+2025-08-09 03:24:41,658 - INFO - Epoch 861/1000 | Train Loss: 0.0001303 | Val Loss: 0.0001077 | LR: 0.000821
+2025-08-09 03:26:37,053 - INFO - Epoch 862/1000 | Train Loss: 0.0001321 | Val Loss: 0.0001062 | LR: 0.000824
+2025-08-09 03:28:32,608 - INFO - Epoch 863/1000 | Train Loss: 0.0001302 | Val Loss: 0.0001028 | LR: 0.000826
+2025-08-09 03:30:28,064 - INFO - Epoch 864/1000 | Train Loss: 0.0001264 | Val Loss: 0.0001009 | LR: 0.000828
+2025-08-09 03:32:23,467 - INFO - Epoch 865/1000 | Train Loss: 0.0001319 | Val Loss: 0.0001057 | LR: 0.000831
+2025-08-09 03:34:19,067 - INFO - Epoch 866/1000 | Train Loss: 0.0001304 | Val Loss: 0.0001036 | LR: 0.000833
+2025-08-09 03:36:14,535 - INFO - Epoch 867/1000 | Train Loss: 0.0001266 | Val Loss: 0.0001076 | LR: 0.000836
+2025-08-09 03:38:10,029 - INFO - Epoch 868/1000 | Train Loss: 0.0001316 | Val Loss: 0.0001040 | LR: 0.000838
+2025-08-09 03:40:05,463 - INFO - Epoch 869/1000 | Train Loss: 0.0001324 | Val Loss: 0.0001025 | LR: 0.000840
+2025-08-09 03:42:00,925 - INFO - Epoch 870/1000 | Train Loss: 0.0001307 | Val Loss: 0.0001006 | LR: 0.000842
+2025-08-09 03:43:56,344 - INFO - Epoch 871/1000 | Train Loss: 0.0001321 | Val Loss: 0.0001040 | LR: 0.000845
+2025-08-09 03:45:51,854 - INFO - Epoch 872/1000 | Train Loss: 0.0001301 | Val Loss: 0.0001084 | LR: 0.000847
+2025-08-09 03:47:47,308 - INFO - Epoch 873/1000 | Train Loss: 0.0001335 | Val Loss: 0.0001004 | LR: 0.000849
+2025-08-09 03:49:42,722 - INFO - Epoch 874/1000 | Train Loss: 0.0001266 | Val Loss: 0.0001014 | LR: 0.000851
+2025-08-09 03:51:38,206 - INFO - Epoch 875/1000 | Train Loss: 0.0001319 | Val Loss: 0.0001158 | LR: 0.000854
+2025-08-09 03:53:33,860 - INFO - Epoch 876/1000 | Train Loss: 0.0001305 | Val Loss: 0.0001029 | LR: 0.000856
+2025-08-09 03:55:29,286 - INFO - Epoch 877/1000 | Train Loss: 0.0001279 | Val Loss: 0.0001047 | LR: 0.000858
+2025-08-09 03:57:24,739 - INFO - Epoch 878/1000 | Train Loss: 0.0001287 | Val Loss: 0.0001046 | LR: 0.000860
+2025-08-09 03:59:20,180 - INFO - Epoch 879/1000 | Train Loss: 0.0001280 | Val Loss: 0.0001019 | LR: 0.000862
+2025-08-09 04:01:15,637 - INFO - Epoch 880/1000 | Train Loss: 0.0001316 | Val Loss: 0.0001011 | LR: 0.000865
+2025-08-09 04:03:11,110 - INFO - Epoch 881/1000 | Train Loss: 0.0001327 | Val Loss: 0.0001043 | LR: 0.000867
+2025-08-09 04:05:06,585 - INFO - Epoch 882/1000 | Train Loss: 0.0001308 | Val Loss: 0.0001118 | LR: 0.000869
+2025-08-09 04:07:02,044 - INFO - Epoch 883/1000 | Train Loss: 0.0001310 | Val Loss: 0.0001030 | LR: 0.000871
+2025-08-09 04:08:57,488 - INFO - Epoch 884/1000 | Train Loss: 0.0001296 | Val Loss: 0.0000982 | LR: 0.000873
+2025-08-09 04:10:52,939 - INFO - Epoch 885/1000 | Train Loss: 0.0001251 | Val Loss: 0.0000998 | LR: 0.000875
+2025-08-09 04:12:48,359 - INFO - Epoch 886/1000 | Train Loss: 0.0001289 | Val Loss: 0.0001105 | LR: 0.000877
+2025-08-09 04:14:43,816 - INFO - Epoch 887/1000 | Train Loss: 0.0001246 | Val Loss: 0.0001009 | LR: 0.000879
+2025-08-09 04:16:39,511 - INFO - Epoch 888/1000 | Train Loss: 0.0001258 | Val Loss: 0.0001014 | LR: 0.000881
+2025-08-09 04:18:34,940 - INFO - Epoch 889/1000 | Train Loss: 0.0001283 | Val Loss: 0.0001041 | LR: 0.000883
+2025-08-09 04:20:30,357 - INFO - Epoch 890/1000 | Train Loss: 0.0001279 | Val Loss: 0.0001000 | LR: 0.000885
+2025-08-09 04:22:25,884 - INFO - Epoch 891/1000 | Train Loss: 0.0001266 | Val Loss: 0.0001033 | LR: 0.000887
+2025-08-09 04:24:21,431 - INFO - Epoch 892/1000 | Train Loss: 0.0001293 | Val Loss: 0.0001026 | LR: 0.000889
+2025-08-09 04:26:16,835 - INFO - Epoch 893/1000 | Train Loss: 0.0001293 | Val Loss: 0.0001090 | LR: 0.000891
+2025-08-09 04:28:12,269 - INFO - Epoch 894/1000 | Train Loss: 0.0001318 | Val Loss: 0.0001085 | LR: 0.000893
+2025-08-09 04:30:07,715 - INFO - Epoch 895/1000 | Train Loss: 0.0001284 | Val Loss: 0.0000997 | LR: 0.000895
+2025-08-09 04:32:03,177 - INFO - Epoch 896/1000 | Train Loss: 0.0001246 | Val Loss: 0.0001037 | LR: 0.000897
+2025-08-09 04:33:58,601 - INFO - Epoch 897/1000 | Train Loss: 0.0001282 | Val Loss: 0.0001026 | LR: 0.000899
+2025-08-09 04:35:54,056 - INFO - Epoch 898/1000 | Train Loss: 0.0001273 | Val Loss: 0.0001017 | LR: 0.000901
+2025-08-09 04:37:49,535 - INFO - Epoch 899/1000 | Train Loss: 0.0001257 | Val Loss: 0.0000997 | LR: 0.000903
+2025-08-09 04:39:44,990 - INFO - Epoch 900/1000 | Train Loss: 0.0001275 | Val Loss: 0.0001016 | LR: 0.000905
+2025-08-09 04:39:45,676 - INFO - Saved periodic checkpoint at epoch 900 to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_epoch_900.pth
+2025-08-09 04:41:41,174 - INFO - Epoch 901/1000 | Train Loss: 0.0001228 | Val Loss: 0.0001033 | LR: 0.000906
+2025-08-09 04:43:36,615 - INFO - Epoch 902/1000 | Train Loss: 0.0001226 | Val Loss: 0.0001012 | LR: 0.000908
+2025-08-09 04:45:32,167 - INFO - Epoch 903/1000 | Train Loss: 0.0001265 | Val Loss: 0.0000973 | LR: 0.000910
+2025-08-09 04:47:27,650 - INFO - Epoch 904/1000 | Train Loss: 0.0001271 | Val Loss: 0.0001008 | LR: 0.000912
+2025-08-09 04:49:23,143 - INFO - Epoch 905/1000 | Train Loss: 0.0001241 | Val Loss: 0.0001003 | LR: 0.000914
+2025-08-09 04:51:18,598 - INFO - Epoch 906/1000 | Train Loss: 0.0001229 | Val Loss: 0.0001009 | LR: 0.000915
+2025-08-09 04:53:14,139 - INFO - Epoch 907/1000 | Train Loss: 0.0001263 | Val Loss: 0.0000994 | LR: 0.000917
+2025-08-09 04:55:09,581 - INFO - Epoch 908/1000 | Train Loss: 0.0001259 | Val Loss: 0.0000991 | LR: 0.000919
+2025-08-09 04:57:05,063 - INFO - Epoch 909/1000 | Train Loss: 0.0001206 | Val Loss: 0.0000984 | LR: 0.000921
+2025-08-09 04:59:00,665 - INFO - Epoch 910/1000 | Train Loss: 0.0001254 | Val Loss: 0.0001066 | LR: 0.000922
+2025-08-09 05:00:56,051 - INFO - Epoch 911/1000 | Train Loss: 0.0001286 | Val Loss: 0.0001011 | LR: 0.000924
+2025-08-09 05:02:51,514 - INFO - Epoch 912/1000 | Train Loss: 0.0001271 | Val Loss: 0.0001042 | LR: 0.000926
+2025-08-09 05:04:46,974 - INFO - Epoch 913/1000 | Train Loss: 0.0001244 | Val Loss: 0.0000995 | LR: 0.000927
+2025-08-09 05:06:42,431 - INFO - Epoch 914/1000 | Train Loss: 0.0001269 | Val Loss: 0.0000980 | LR: 0.000929
+2025-08-09 05:08:37,885 - INFO - Epoch 915/1000 | Train Loss: 0.0001194 | Val Loss: 0.0000978 | LR: 0.000930
+2025-08-09 05:10:33,337 - INFO - Epoch 916/1000 | Train Loss: 0.0001286 | Val Loss: 0.0001028 | LR: 0.000932
+2025-08-09 05:12:28,793 - INFO - Epoch 917/1000 | Train Loss: 0.0001217 | Val Loss: 0.0000992 | LR: 0.000934
+2025-08-09 05:14:24,272 - INFO - Epoch 918/1000 | Train Loss: 0.0001255 | Val Loss: 0.0001034 | LR: 0.000935
+2025-08-09 05:16:19,766 - INFO - Epoch 919/1000 | Train Loss: 0.0001234 | Val Loss: 0.0000995 | LR: 0.000937
+2025-08-09 05:18:15,441 - INFO - Epoch 920/1000 | Train Loss: 0.0001243 | Val Loss: 0.0000983 | LR: 0.000938
+2025-08-09 05:20:10,885 - INFO - Epoch 921/1000 | Train Loss: 0.0001260 | Val Loss: 0.0001032 | LR: 0.000940
+2025-08-09 05:22:06,315 - INFO - Epoch 922/1000 | Train Loss: 0.0001251 | Val Loss: 0.0000982 | LR: 0.000941
+2025-08-09 05:24:01,739 - INFO - Epoch 923/1000 | Train Loss: 0.0001247 | Val Loss: 0.0001030 | LR: 0.000943
+2025-08-09 05:25:57,198 - INFO - Epoch 924/1000 | Train Loss: 0.0001248 | Val Loss: 0.0001014 | LR: 0.000944
+2025-08-09 05:27:52,658 - INFO - Epoch 925/1000 | Train Loss: 0.0001231 | Val Loss: 0.0000981 | LR: 0.000946
+2025-08-09 05:29:48,108 - INFO - Epoch 926/1000 | Train Loss: 0.0001264 | Val Loss: 0.0001047 | LR: 0.000947
+2025-08-09 05:31:43,814 - INFO - Epoch 927/1000 | Train Loss: 0.0001226 | Val Loss: 0.0001025 | LR: 0.000948
+2025-08-09 05:33:39,261 - INFO - Epoch 928/1000 | Train Loss: 0.0001243 | Val Loss: 0.0000981 | LR: 0.000950
+2025-08-09 05:35:34,769 - INFO - Epoch 929/1000 | Train Loss: 0.0001233 | Val Loss: 0.0001022 | LR: 0.000951
+2025-08-09 05:37:30,190 - INFO - Epoch 930/1000 | Train Loss: 0.0001218 | Val Loss: 0.0001071 | LR: 0.000952
+2025-08-09 05:39:25,614 - INFO - Epoch 931/1000 | Train Loss: 0.0001278 | Val Loss: 0.0000986 | LR: 0.000954
+2025-08-09 05:41:21,059 - INFO - Epoch 932/1000 | Train Loss: 0.0001163 | Val Loss: 0.0000920 | LR: 0.000955
+2025-08-09 05:41:21,782 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000920
+2025-08-09 05:43:17,160 - INFO - Epoch 933/1000 | Train Loss: 0.0001276 | Val Loss: 0.0001004 | LR: 0.000956
+2025-08-09 05:45:12,620 - INFO - Epoch 934/1000 | Train Loss: 0.0001219 | Val Loss: 0.0000963 | LR: 0.000958
+2025-08-09 05:47:08,151 - INFO - Epoch 935/1000 | Train Loss: 0.0001217 | Val Loss: 0.0001001 | LR: 0.000959
+2025-08-09 05:49:03,648 - INFO - Epoch 936/1000 | Train Loss: 0.0001206 | Val Loss: 0.0000980 | LR: 0.000960
+2025-08-09 05:50:59,135 - INFO - Epoch 937/1000 | Train Loss: 0.0001244 | Val Loss: 0.0000993 | LR: 0.000961
+2025-08-09 05:52:54,586 - INFO - Epoch 938/1000 | Train Loss: 0.0001228 | Val Loss: 0.0001012 | LR: 0.000963
+2025-08-09 05:54:50,040 - INFO - Epoch 939/1000 | Train Loss: 0.0001178 | Val Loss: 0.0000956 | LR: 0.000964
+2025-08-09 05:56:45,503 - INFO - Epoch 940/1000 | Train Loss: 0.0001170 | Val Loss: 0.0000997 | LR: 0.000965
+2025-08-09 05:58:40,982 - INFO - Epoch 941/1000 | Train Loss: 0.0001236 | Val Loss: 0.0001015 | LR: 0.000966
+2025-08-09 06:00:36,409 - INFO - Epoch 942/1000 | Train Loss: 0.0001201 | Val Loss: 0.0000946 | LR: 0.000967
+2025-08-09 06:02:31,985 - INFO - Epoch 943/1000 | Train Loss: 0.0001199 | Val Loss: 0.0000957 | LR: 0.000968
+2025-08-09 06:04:27,432 - INFO - Epoch 944/1000 | Train Loss: 0.0001209 | Val Loss: 0.0000945 | LR: 0.000969
+2025-08-09 06:06:23,336 - INFO - Epoch 945/1000 | Train Loss: 0.0001213 | Val Loss: 0.0000966 | LR: 0.000970
+2025-08-09 06:08:18,789 - INFO - Epoch 946/1000 | Train Loss: 0.0001193 | Val Loss: 0.0000950 | LR: 0.000972
+2025-08-09 06:10:14,424 - INFO - Epoch 947/1000 | Train Loss: 0.0001184 | Val Loss: 0.0000985 | LR: 0.000973
+2025-08-09 06:12:09,888 - INFO - Epoch 948/1000 | Train Loss: 0.0001244 | Val Loss: 0.0001021 | LR: 0.000974
+2025-08-09 06:14:05,367 - INFO - Epoch 949/1000 | Train Loss: 0.0001189 | Val Loss: 0.0000949 | LR: 0.000975
+2025-08-09 06:16:00,824 - INFO - Epoch 950/1000 | Train Loss: 0.0001229 | Val Loss: 0.0000987 | LR: 0.000976
+2025-08-09 06:17:56,273 - INFO - Epoch 951/1000 | Train Loss: 0.0001229 | Val Loss: 0.0000964 | LR: 0.000977
+2025-08-09 06:19:51,697 - INFO - Epoch 952/1000 | Train Loss: 0.0001165 | Val Loss: 0.0000947 | LR: 0.000977
+2025-08-09 06:21:47,210 - INFO - Epoch 953/1000 | Train Loss: 0.0001204 | Val Loss: 0.0001010 | LR: 0.000978
+2025-08-09 06:23:42,664 - INFO - Epoch 954/1000 | Train Loss: 0.0001146 | Val Loss: 0.0000927 | LR: 0.000979
+2025-08-09 06:25:38,086 - INFO - Epoch 955/1000 | Train Loss: 0.0001153 | Val Loss: 0.0000929 | LR: 0.000980
+2025-08-09 06:27:33,601 - INFO - Epoch 956/1000 | Train Loss: 0.0001148 | Val Loss: 0.0000945 | LR: 0.000981
+2025-08-09 06:29:29,023 - INFO - Epoch 957/1000 | Train Loss: 0.0001182 | Val Loss: 0.0000951 | LR: 0.000982
+2025-08-09 06:31:24,526 - INFO - Epoch 958/1000 | Train Loss: 0.0001175 | Val Loss: 0.0000963 | LR: 0.000983
+2025-08-09 06:33:19,977 - INFO - Epoch 959/1000 | Train Loss: 0.0001171 | Val Loss: 0.0000927 | LR: 0.000984
+2025-08-09 06:35:15,462 - INFO - Epoch 960/1000 | Train Loss: 0.0001139 | Val Loss: 0.0000939 | LR: 0.000984
+2025-08-09 06:37:10,963 - INFO - Epoch 961/1000 | Train Loss: 0.0001169 | Val Loss: 0.0000943 | LR: 0.000985
+2025-08-09 06:39:06,437 - INFO - Epoch 962/1000 | Train Loss: 0.0001191 | Val Loss: 0.0000930 | LR: 0.000986
+2025-08-09 06:41:01,951 - INFO - Epoch 963/1000 | Train Loss: 0.0001187 | Val Loss: 0.0000941 | LR: 0.000987
+2025-08-09 06:42:57,411 - INFO - Epoch 964/1000 | Train Loss: 0.0001176 | Val Loss: 0.0000954 | LR: 0.000987
+2025-08-09 06:44:52,889 - INFO - Epoch 965/1000 | Train Loss: 0.0001154 | Val Loss: 0.0000917 | LR: 0.000988
+2025-08-09 06:44:53,647 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000917
+2025-08-09 06:46:49,141 - INFO - Epoch 966/1000 | Train Loss: 0.0001180 | Val Loss: 0.0000910 | LR: 0.000989
+2025-08-09 06:46:49,876 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000910
+2025-08-09 06:48:45,527 - INFO - Epoch 967/1000 | Train Loss: 0.0001226 | Val Loss: 0.0000982 | LR: 0.000989
+2025-08-09 06:50:41,202 - INFO - Epoch 968/1000 | Train Loss: 0.0001141 | Val Loss: 0.0000913 | LR: 0.000990
+2025-08-09 06:52:36,706 - INFO - Epoch 969/1000 | Train Loss: 0.0001152 | Val Loss: 0.0000917 | LR: 0.000991
+2025-08-09 06:54:32,199 - INFO - Epoch 970/1000 | Train Loss: 0.0001131 | Val Loss: 0.0000926 | LR: 0.000991
+2025-08-09 06:56:27,649 - INFO - Epoch 971/1000 | Train Loss: 0.0001180 | Val Loss: 0.0000948 | LR: 0.000992
+2025-08-09 06:58:23,169 - INFO - Epoch 972/1000 | Train Loss: 0.0001118 | Val Loss: 0.0000913 | LR: 0.000992
+2025-08-09 07:00:18,657 - INFO - Epoch 973/1000 | Train Loss: 0.0001135 | Val Loss: 0.0000942 | LR: 0.000993
+2025-08-09 07:02:14,121 - INFO - Epoch 974/1000 | Train Loss: 0.0001186 | Val Loss: 0.0001076 | LR: 0.000993
+2025-08-09 07:04:09,764 - INFO - Epoch 975/1000 | Train Loss: 0.0001189 | Val Loss: 0.0000908 | LR: 0.000994
+2025-08-09 07:04:10,470 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000908
+2025-08-09 07:06:06,195 - INFO - Epoch 976/1000 | Train Loss: 0.0001131 | Val Loss: 0.0000903 | LR: 0.000994
+2025-08-09 07:06:06,933 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000903
+2025-08-09 07:08:02,356 - INFO - Epoch 977/1000 | Train Loss: 0.0001143 | Val Loss: 0.0000957 | LR: 0.000995
+2025-08-09 07:09:57,852 - INFO - Epoch 978/1000 | Train Loss: 0.0001140 | Val Loss: 0.0000939 | LR: 0.000995
+2025-08-09 07:11:53,563 - INFO - Epoch 979/1000 | Train Loss: 0.0001105 | Val Loss: 0.0000925 | LR: 0.000996
+2025-08-09 07:13:49,078 - INFO - Epoch 980/1000 | Train Loss: 0.0001125 | Val Loss: 0.0000925 | LR: 0.000996
+2025-08-09 07:15:44,575 - INFO - Epoch 981/1000 | Train Loss: 0.0001158 | Val Loss: 0.0000929 | LR: 0.000996
+2025-08-09 07:17:40,046 - INFO - Epoch 982/1000 | Train Loss: 0.0001166 | Val Loss: 0.0000893 | LR: 0.000997
+2025-08-09 07:17:40,778 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000893
+2025-08-09 07:19:36,184 - INFO - Epoch 983/1000 | Train Loss: 0.0001110 | Val Loss: 0.0000865 | LR: 0.000997
+2025-08-09 07:19:36,911 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000865
+2025-08-09 07:21:32,318 - INFO - Epoch 984/1000 | Train Loss: 0.0001105 | Val Loss: 0.0000899 | LR: 0.000997
+2025-08-09 07:23:27,785 - INFO - Epoch 985/1000 | Train Loss: 0.0001147 | Val Loss: 0.0000900 | LR: 0.000998
+2025-08-09 07:25:23,414 - INFO - Epoch 986/1000 | Train Loss: 0.0001114 | Val Loss: 0.0000897 | LR: 0.000998
+2025-08-09 07:27:18,906 - INFO - Epoch 987/1000 | Train Loss: 0.0001118 | Val Loss: 0.0000919 | LR: 0.000998
+2025-08-09 07:29:14,376 - INFO - Epoch 988/1000 | Train Loss: 0.0001068 | Val Loss: 0.0000865 | LR: 0.000999
+2025-08-09 07:31:09,864 - INFO - Epoch 989/1000 | Train Loss: 0.0001127 | Val Loss: 0.0000912 | LR: 0.000999
+2025-08-09 07:33:05,301 - INFO - Epoch 990/1000 | Train Loss: 0.0001120 | Val Loss: 0.0000956 | LR: 0.000999
+2025-08-09 07:35:00,853 - INFO - Epoch 991/1000 | Train Loss: 0.0001097 | Val Loss: 0.0000922 | LR: 0.000999
+2025-08-09 07:36:56,316 - INFO - Epoch 992/1000 | Train Loss: 0.0001148 | Val Loss: 0.0000900 | LR: 0.000999
+2025-08-09 07:38:51,766 - INFO - Epoch 993/1000 | Train Loss: 0.0001116 | Val Loss: 0.0000920 | LR: 0.001000
+2025-08-09 07:40:47,300 - INFO - Epoch 994/1000 | Train Loss: 0.0001115 | Val Loss: 0.0000881 | LR: 0.001000
+2025-08-09 07:42:42,744 - INFO - Epoch 995/1000 | Train Loss: 0.0001128 | Val Loss: 0.0000864 | LR: 0.001000
+2025-08-09 07:42:43,505 - INFO - New best model saved to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_best_model.pth with validation loss: 0.0000864
+2025-08-09 07:44:38,885 - INFO - Epoch 996/1000 | Train Loss: 0.0001076 | Val Loss: 0.0000875 | LR: 0.001000
+2025-08-09 07:46:34,382 - INFO - Epoch 997/1000 | Train Loss: 0.0001107 | Val Loss: 0.0000941 | LR: 0.001000
+2025-08-09 07:48:29,829 - INFO - Epoch 998/1000 | Train Loss: 0.0001088 | Val Loss: 0.0000875 | LR: 0.001000
+2025-08-09 07:50:25,376 - INFO - Epoch 999/1000 | Train Loss: 0.0001087 | Val Loss: 0.0001032 | LR: 0.001000
+2025-08-09 07:52:20,873 - INFO - Epoch 1000/1000 | Train Loss: 0.0001127 | Val Loss: 0.0000894 | LR: 0.001000
+2025-08-09 07:52:21,515 - INFO - Saved periodic checkpoint at epoch 1000 to /jizhicfs/Prometheus/Triton4Earth_V2/Scenario_3_Ocean_stream/regional_kuroshio_forcasting_0.125degree_daily/checkpoints/regional_kuroshio_forcasting_025degree_daily_20250808_epoch_1000.pth
+2025-08-09 07:52:21,515 - INFO - Training finished. Starting final testing with the best model.
+2025-08-09 07:52:21,889 - INFO - Successfully loaded best model checkpoint for testing.
