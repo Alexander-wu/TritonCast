@@ -24,6 +24,6 @@ This repo is the official PyTorch implementation of Triton_Earth: **TritonCast: 
 
 ## Architecture 🌟🌟🌟
 
-<div align=center>
-<embed src="Figures/TriconCast.pdf" type="application/pdf" width="1080" height="800px" />
+<div align="center">
+  <img src="Figures/TritonCast.png" alt="TritonCast Architecture" width="1080">
 </div>
