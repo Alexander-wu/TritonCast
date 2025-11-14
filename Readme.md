@@ -7,11 +7,11 @@ This repo is the official PyTorch implementation of Triton_Earth: **TritonCast: 
     <img src="https://img.shields.io/badge/license-Apache--2.0-%23002FA7" /></a>
 </p>
 
-[📘Documentation](https://arxiv.org/abs/2312.08403) |
+[📘Documentation](https://tritoncast4earth.netlify.app/) |
 [🛠️Installation](docs/en/install.md) |
-[🚀Model Zoo](https://arxiv.org/abs/2312.08403) |
-[🤗Huggingface](https://huggingface.co/easylearning/Triton_Earth_V1/tree/main) |
-[👀Visualization](https://arxiv.org/abs/2312.08403) |
+[🚀Model Zoo](https://huggingface.co/TritonCast) |
+[🤗Huggingface](https://huggingface.co/TritonCast) |
+[👀Visualization](https://tritoncast4earth.netlify.app/) |
 [🆕News](docs/en/changelog.md)
 
 
