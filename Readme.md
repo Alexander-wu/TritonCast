@@ -35,6 +35,16 @@ TritonCast-main/
 └── Readme.md                                # This document
 ```
 
+Below is a guide to the experiments presented in our paper and their corresponding code directories.
+
+| Experiment Description | Directory | Quick Start |
+| :--- | :---: | :---: |
+| **Medium-Range Weather Forecasting** (on WeatherBench 2) | [`./exp1_...`](./exp1_medium_range_weather_forecasting) | [**Instructions**](./exp1_medium_range_weather_forecasting/README.md) |
+| **Long-Term Atmospheric Stability Test** (Year-long forecast) | [`./exp2_...`](./exp2_long_term_stability_test) | [**Instructions**](./exp2_long_term_stability_test/README.md) |
+| **Multi-Year Climate Simulation** | [`./exp3_...`](./exp3_multi_year_climate_simulation) | [**Instructions**](./exp3_multi_year_climate_simulation/README.md) |
+| **Global Ocean Simulation & Forecasting** | [`./exp4_...`](./exp4_global_ocean_simulation_and_forecasting) | [**Instructions**](./exp4_global_ocean_simulation_and_forecasting/README.md) |
+| **High-Fidelity Ocean Eddy Forecast** | [`./exp6_...`](./exp6_high_fidelity_eddy_forecast) | [**Instructions**](./exp6_high_fidelity_eddy_forecast/README.md) |
+| **Isotropic Turbulence Benchmark** | [`./exp7_...`](./exp7_isotropic_turbulence) | [**Instructions**](./exp7_isotropic_turbulence/README.md) |
 ## 🚀Architecture 
 
 <div align="center">
