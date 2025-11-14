@@ -22,6 +22,19 @@ This repo is the official PyTorch implementation of Triton_Earth: **TritonCast: 
 - [✅] Github Page
 - [✅] Paper
 
+
+## 🛠️Repository Structure
+```
+TritonCast-main/
+├── exp1_medium_range_weather_forecasting/   # Corresponds to the medium-range weather forecasting experiments in the paper
+├── exp2_long_term_stability_test/           # Corresponds to the long-term atmospheric stability experiments in the paper
+├── exp3_multi_year_climate_simulation/      # Corresponds to the multi-year climate simulation experiments in the paper
+├── exp4_global_ocean_simulation_and_forecasting/ # Corresponds to the global ocean simulation and forecasting experiments in the paper
+├── exp6_high_fidelity_eddy_forecast/        # Corresponds to the high-fidelity ocean eddy forecasting experiments in the paper, including zero-shot
+├── exp7_isotropic_turbulence/               # Corresponds to the turbulence benchmark tests in the paper
+└── Readme.md                                # This document
+```
+
 ## 🚀Architecture 
 
 <div align="center">
