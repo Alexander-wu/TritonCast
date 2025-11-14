@@ -16,14 +16,27 @@ This repo is the official PyTorch implementation of Triton_Earth: **TritonCast: 
 
 
 
-## 📑 Open-source Plan
+## 📑Open-source Plan
 
 - [✅] Project Page
 - [✅] Github Page
 - [✅] Paper
 
-## Architecture 🌟🌟🌟
+## 🚀Architecture 
 
 <div align="center">
   <img src="Figures/TritonCast.jpg" alt="TritonCast Architecture" width="1080">
 </div>
+Figure: The V-cycle architecture of TritonCast. It integrates a Multi-Grid Hierarchy for multi-scale processing, a stable Latent Dynamical Core (LDC) for long-term evolution, and Skip-Connections to retain high-fidelity details. This design effectively mitigates error accumulation in long-term forecasts.
+
+## 🌟 Highlights
+
+TritonCast establishes a new state-of-the-art in long-term Earth system forecasting. Our key contributions include:
+
+🌀 **Unprecedented Long-term Stability:** Achieves stable, year-long, purely autoregressive global atmospheric forecasts without any drift or model collapse, accurately capturing seasonal cycles.
+
+🌊 **High-Fidelity Ocean Forecasting:** Extends the skillful forecast of ocean eddies to an unprecedented 120 days, preserving fine-scale structures that other models lose.
+
+🏆 **State-of-the-Art Performance:** Matches or exceeds leading AI models (like Pangu-Weather, GraphCast) and operational systems on the WeatherBench 2 benchmark for medium-range forecasting.
+
+🌐 **Zero-Shot Generalization:** Demonstrates a remarkable ability to generalize across resolutions—a model trained on 0.25° data can produce physically realistic forecasts on unseen 0.125° grids, proving it has learned the underlying physical laws.
