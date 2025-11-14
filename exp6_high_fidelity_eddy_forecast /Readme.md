@@ -20,7 +20,7 @@ conda activate triton_v2
 
 Download the required CMEMS dataset for this experiment and place it in a designated `data` directory.
 
-- **Download Link**: [**CMEMS_dataset**](https://huggingface.co/datasets/TritonCast/TritonCast_inference_datasets/tree/main/CMEMS_dataset)
+- **Download Link**: [**CMEMS_dataset**](https://huggingface.co/datasets/TritonCast/TritonCast_inference_datasets/tree/main/CMEMS_dataset) and [**zero-shot test datasets**](https://huggingface.co/datasets/TritonCast/TritonCast_inference_datasets/tree/main/Zero-shot%20Generalization)
 
 We recommend the following structure:
 ```
