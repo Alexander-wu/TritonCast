@@ -18,10 +18,8 @@ This repo is the official PyTorch implementation of Triton_Earth: **TritonCast: 
 
 ## 📑Open-source Plan
 
-- [✅] Project Page
-- [✅] Github Page
-- [✅] Paper
-
+- [✅] [**Project Page**](https://tritoncast4earth.netlify.app/)
+- [✅] [**Paper**](https://arxiv.org/abs/2505.19432)
 
 ## 🛠️Repository Structure
 ```
