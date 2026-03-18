@@ -24,12 +24,14 @@ This repo is the official PyTorch implementation of Triton_Earth: **TritonCast: 
 ## 🛠️Repository Structure
 ```
 TritonCast-main/
-├── exp1_medium_range_weather_forecasting/   # Corresponds to the medium-range weather forecasting experiments in the paper
-├── exp2_long_term_stability_test/           # Corresponds to the long-term atmospheric stability experiments in the paper
-├── exp3_multi_year_climate_simulation/      # Corresponds to the multi-year climate simulation experiments in the paper
-├── exp4_global_ocean_simulation_and_forecasting/ # Corresponds to the global ocean simulation and forecasting experiments in the paper
-├── exp6_high_fidelity_eddy_forecast/        # Corresponds to the high-fidelity ocean eddy forecasting experiments in the paper, including zero-shot
-├── exp7_isotropic_turbulence/               # Corresponds to the turbulence benchmark tests in the paper
+├── tritoncast/                               # Shared package for common utilities and model builders
+├── experiments/                             # Paper experiments grouped under one parent directory
+│   ├── exp1_medium_range_weather_forecasting/
+│   ├── exp2_long_term_stability_test/
+│   ├── exp3_multi_year_climate_simulation/
+│   ├── exp4_global_ocean_simulation_and_forecasting/
+│   ├── exp6_high_fidelity_eddy_forecast/
+│   └── exp7_isotropic_turbulence/
 └── Readme.md                                # This document
 ```
 
@@ -37,12 +39,24 @@ Below is a guide to the experiments presented in our paper and their correspondi
 
 | Experiment Description | Directory | Quick Start |
 | :--- | :---: | :---: |
-| **Medium-Range Weather Forecasting** (on WeatherBench 2) | [`./exp1_...`](./exp1_medium_range_weather_forecasting) | [**Instructions**](./exp1_medium_range_weather_forecasting/README.md) |
-| **Long-Term Atmospheric Stability Test** (Year-long forecast) | [`./exp2_...`](./exp2_long_term_stability_test) | [**Instructions**](./exp2_long_term_stability_test/README.md) |
-| **Multi-Year Climate Simulation** | [`./exp3_...`](./exp3_multi_year_climate_simulation) | [**Instructions**](./exp3_multi_year_climate_simulation/README.md) |
-| **Global Ocean Simulation & Forecasting** | [`./exp4_...`](./exp4_global_ocean_simulation_and_forecasting) | [**Instructions**](./exp4_global_ocean_simulation_and_forecasting/README.md) |
-| **High-Fidelity Ocean Eddy Forecast** | [`./exp6_...`](./exp6_high_fidelity_eddy_forecast) | [**Instructions**](https://github.com/Alexander-wu/TritonCast/blob/main/exp6_high_fidelity_eddy_forecast%20/Readme.md) |
-| **Isotropic Turbulence Benchmark** | [`./exp7_...`](./exp7_isotropic_turbulence) | [**Instructions**](./exp7_isotropic_turbulence/README.md) |
+| **Medium-Range Weather Forecasting** (on WeatherBench 2) | [`./experiments/exp1_...`](./experiments/exp1_medium_range_weather_forecasting) | [**Instructions**](./experiments/exp1_medium_range_weather_forecasting/README.md) |
+| **Long-Term Atmospheric Stability Test** (Year-long forecast) | [`./experiments/exp2_...`](./experiments/exp2_long_term_stability_test) | [**Instructions**](./experiments/exp2_long_term_stability_test/README.md) |
+| **Multi-Year Climate Simulation** | [`./experiments/exp3_...`](./experiments/exp3_multi_year_climate_simulation) | [**Instructions**](./experiments/exp3_multi_year_climate_simulation/README.md) |
+| **Global Ocean Simulation & Forecasting** | [`./experiments/exp4_...`](./experiments/exp4_global_ocean_simulation_and_forecasting) | [**Instructions**](./experiments/exp4_global_ocean_simulation_and_forecasting/README.md) |
+| **High-Fidelity Ocean Eddy Forecast** | [`./experiments/exp6_...`](./experiments/exp6_high_fidelity_eddy_forecast%20) | [**Instructions**](https://github.com/Alexander-wu/TritonCast/blob/main/exp6_high_fidelity_eddy_forecast%20/Readme.md) |
+| **Isotropic Turbulence Benchmark** | [`./experiments/exp7_...`](./experiments/exp7_isotropic_turbulence) | [**Instructions**](./experiments/exp7_isotropic_turbulence/README.md) |
+ 
+## Shared Package
+
+The root-level `tritoncast/` package centralizes common utilities that were previously copied across experiments:
+
+- shared config parsing in `tritoncast.utils.params`
+- shared logging and checkpoint loading in `tritoncast.utils`
+- a common model factory in `tritoncast.models.build_model()`
+
+Experiment folders now primarily keep task-specific data adapters, configs, and entry scripts.
+For readability, the shared API uses descriptive task names such as `medium_range_weather` and `multi_year_climate`; the `exp1` / `exp2` / `exp3` naming is now only kept inside the `experiments/` folder to stay aligned with the paper.
+
 ## 🚀Architecture 
 
 <div align="center">
