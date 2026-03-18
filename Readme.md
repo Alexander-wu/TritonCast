@@ -60,7 +60,7 @@ For readability, the shared API uses descriptive task names such as `medium_rang
 ## 🚀Architecture 
 
 <div align="center">
-  <img src="Figures/TritonCast.jpg" alt="TritonCast Architecture" width="1080">
+  <img src="figures/TritonCast.jpg" alt="TritonCast Architecture" width="1080">
 </div>
 Figure: The V-cycle architecture of TritonCast. It integrates a Multi-Grid Hierarchy for multi-scale processing, a stable Latent Dynamical Core (LDC) for long-term evolution, and Skip-Connections to retain high-fidelity details. This design effectively mitigates error accumulation in long-term forecasts.
 
