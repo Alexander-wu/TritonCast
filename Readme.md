@@ -1,3 +1,6 @@
+**禁止一切商用行为！！！**
+
+
 This repo is the official PyTorch implementation of Triton_Earth: **TritonCast: Advanced Long-term Earth System Forecasting**.
 
 <p align="left">
